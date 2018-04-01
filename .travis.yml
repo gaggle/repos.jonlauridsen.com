@@ -16,4 +16,4 @@ jobs:
     script: npm run scrape
   - stage: rebuild
     if: type NOT IN (cron)
-    script: ls
+    script: npm run scrape
