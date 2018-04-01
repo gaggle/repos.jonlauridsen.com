@@ -15,5 +15,5 @@ jobs:
     if: type IN (cron)
     script: npm run scrape
   - stage: rebuild
-    if: type NOT IN (cron)
+    if: NOT type IN (cron)
     script: npm run scrape
