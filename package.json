@@ -2,7 +2,7 @@
   "name": "repos.jonlauridsen.com",
   "scripts": {
     "clean": "rm -rf scraped/ tmp/",
-    "scrape": "repos-scrape github -o=scraped/data.json -f=scraped/ -c=tmp/"
+    "scrape": "repo-scrape github -o=scraped/data.json -f=scraped/ -c=tmp/"
   },
   "repository": {
     "type": "git",
