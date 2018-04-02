@@ -2,7 +2,8 @@
   "name": "repos.jonlauridsen.com",
   "scripts": {
     "clean": "rm -rf scraped/ tmp/",
-    "scrape": "repo-scrape github -o=scraped/data.json -f=scraped/ -c=tmp/"
+    "export": "repo-web -d=scraped/data.json -s=scraped/ -o=build/ -c=tmp/web --production",
+    "scrape": "repo-scrape github -o=scraped/data.json -f=scraped/ -c=tmp/scrape"
   },
   "repository": {
     "type": "git",
@@ -11,6 +12,7 @@
   "author": "Jon Lauridsen <mail@jonlauridsen.com>",
   "license": "ISC",
   "dependencies": {
+    "repo-lister": "git+https://github.com/gaggle/repo-lister.git",
     "repo-scraper": "git+https://github.com/gaggle/repo-scraper.git"
   }
 }
