@@ -3,7 +3,8 @@
   "scripts": {
     "clean": "rm -rf scraped/ tmp/",
     "export": "repo-web -d=scraped/data.json -s=scraped/ -o=build/ -c=tmp/web --production",
-    "scrape": "repo-scrape github -o=scraped/data.json -f=scraped/ -c=tmp/scrape"
+    "scrape": "repo-scrape github -o=scraped/data.json -f=scraped/ -c=tmp/scrape",
+    "test": "echo No tests"
   },
   "repository": {
     "type": "git",
