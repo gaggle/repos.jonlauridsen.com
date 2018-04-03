@@ -1,11 +1,6 @@
 language: node_js
 node_js:
 - 9
-cache:
-  directories:
-  - node_modules
-  - scraped
-  - tmp
 env:
   matrix:
     secure: AaJMkoSRzZHM8URkXuXotdETfJH6oeZadJ9DosHyS4/40CFJeYcjJOwZkBACAb/W0nNZzhVRy1RK6S7Ao59RzQNvGNI7D7x5j0DaTB9HQKGZZdA9kQe+LA7XYE/O1r45GXSvTQAfev6lhJaLK6xg01bOs2ZR//MG5f8Pbs0aBlnUsRpWPjH1gHwPqkmieCY71B5gG6ztnLmmrG2QuY+UwEBOUgFF3Ri4tdbrO+mRbt9gdjwcxi3fqiCikz1S5Sa+QUZMPtrLnglmKUVoDv5XvjxmQoqFwzDjN3gX8fWfKBWmhc6GTEIytqh71Mdl5uQ0O5+dB1/DzCfH4l96ls/ytFIsh2kC08Mj8lJ5Q7ZcumtIb6bwA//Gq2IPcMXsC/937RqZp6Gyv5VfmgXQcUSikCQHurdZKm7cjj4b/Y2lhXayg8VgLbj9je8j9CoXJJwkhv1/LDlEIT1SiVaXYpSU54eij/+3NNZUChM8GkDTvufEpyBJr4ZxoH2oYvw6B4AN1DjzMsYfRd3IvFo0SJlSblB3Wjcc84l+NO/OG2tWGAoPmukceO6FamMJx/THnyyVXK46Gx2zzqfzWV4ttCtn6YNqoBHGXunVCmyM0QTGH0yobo4XcJJCZs2tBzh047DY0oE7YOFuVE60hG+90VKeqdIGKSNnQUiS8YeOTeRNmkI=
