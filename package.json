@@ -1,9 +1,13 @@
 {
   "name": "repos.jonlauridsen.com",
   "scripts": {
-    "clean": "rm -rf scraped/ tmp/",
-    "export": "repo-web -d=scraped/data.json -s=scraped/ -o=build/ -c=tmp/web --production",
-    "scrape": "repo-scrape github -o=scraped/data.json -f=scraped/ -c=tmp/scrape",
+    "clean": "rm -rf tmp/",
+    "deploy:gh-pages": "./scripts/deploy tmp/out/ gh-pages",
+    "deploy:gh-scraped": "./scripts/deploy tmp/scraped/ gh-scraped",
+    "export": "repo-web http://list.jonlauridsen.com -s=tmp/scraped/ -o=tmp/out/ --production",
+    "fetch:gh-scraped": "./scripts/fetch gh-scraped tmp/scraped/",
+    "postexport": "touch tmp/out/.nojekyll && echo repos.jonlauridsen.com > tmp/out/CNAME",
+    "scrape": "repo-scrape github -o=tmp/scraped/",
     "test": "echo No tests"
   },
   "repository": {

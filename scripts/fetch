@@ -1,0 +1,24 @@
+#!/bin/bash -eu
+
+URL="git@github.com:gaggle/repos.jonlauridsen.com.git"
+
+BRANCH=${1}
+FOLDER=$(cd "$(dirname "${2}")"; pwd)/$(basename "${2}")
+
+if [ -d "${FOLDER}" ]; then
+    echo "Folder already exists '${FOLDER}'"
+    exit 1
+fi
+
+echo "Fetching '${BRANCH}' to folder '${FOLDER}'"
+
+mkdir -p ${FOLDER}
+cd ${FOLDER}
+
+git init
+git remote add origin ${URL}
+git fetch origin --quiet
+git checkout ${BRANCH}
+git pull
+
+rm -rf .git

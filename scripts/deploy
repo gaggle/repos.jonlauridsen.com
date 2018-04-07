@@ -1,0 +1,38 @@
+#!/bin/bash -eu
+
+URL="git@github.com:gaggle/repos.jonlauridsen.com.git"
+
+FOLDER=$(cd "$(dirname "${1}")"; pwd)/$(basename "${1}")
+BRANCH=${2}
+
+if [ ! -d "${FOLDER}" ]; then
+    echo "Can't find folder '${FOLDER}'"
+    exit 1
+fi
+
+TMP_FOLDER="tmp/deploy/`basename ${BRANCH}`"
+mkdir -p ${TMP_FOLDER}
+TMP_FOLDER=$(cd "$(dirname "${TMP_FOLDER}")"; pwd)/$(basename "${TMP_FOLDER}")
+
+echo "Deploying '${FOLDER}' to branch '${BRANCH}'"
+
+rm -rf ${TMP_FOLDER}
+mkdir -p ${TMP_FOLDER}
+cd ${TMP_FOLDER}
+
+git init
+git remote add origin ${URL}
+git fetch origin --quiet
+git checkout ${BRANCH}
+
+rm -rf *
+cp -r ${FOLDER}/* .
+
+if [ -n "$(git status --porcelain)" ]; then
+    git add .
+    git commit -m "Update ${BRANCH}"
+    git push
+    echo "${BRANCH} deployed"
+else
+    echo "Nothing to deploy for ${BRANCH}"
+fi
