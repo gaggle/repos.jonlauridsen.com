@@ -7,10 +7,15 @@ env:
 jobs:
   include:
   - stage: scrape
-    if: type IN (cron)
-    script: npm run scrape
-  - stage: rebuild
-    if: NOT type IN (cron)
+    if: branch = master AND type IN (cron)
     script:
     - npm test
-    - npm run scrape
+#    - npm run scrape
+#    - npm run deploy:gh-scraped
+  - stage: rebuild
+    if: branch = master AND NOT type IN (cron)
+    script:
+    - npm test
+#    - npm run fetch:gh-scraped
+#    - npm run export
+#    - npm run deploy:gh-pages
