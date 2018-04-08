@@ -3,6 +3,7 @@
   "scripts": {
     "clean": "rm -rf tmp/",
     "deploy:gh-pages": "./scripts/deploy tmp/out/ gh-pages",
+    "deploy:gh-pages:update": "./scripts/update tmp/scraped/ repos/ gh-pages",
     "deploy:gh-scraped": "./scripts/deploy tmp/scraped/ gh-scraped",
     "export": "repo-web http://list.jonlauridsen.com -s=tmp/scraped/ -o=tmp/out/ --production",
     "fetch:gh-scraped": "./scripts/fetch gh-scraped tmp/scraped/",

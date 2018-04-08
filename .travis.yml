@@ -15,7 +15,7 @@ jobs:
   - stage: scrape
     if: branch = master AND type IN (cron)
     script:
-    - npm run scrape && npm run deploy:gh-scraped
+    - npm run scrape && npm run deploy:gh-scraped && npm run deploy:gh-pages:update
   - stage: test
     if: NOT branch = master AND type IN (push, pull_request)
     script:
