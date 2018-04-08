@@ -16,10 +16,10 @@ jobs:
     script:
     - npm run scrape && npm run deploy:gh-scraped
   - stage: test
-    if: type IN (push, pull_request)
+    if: NOT branch = master AND type IN (push, pull_request)
     script:
     - npm test
   - stage: web
     if: branch = master AND type IN (push)
     script:
-    - npm run fetch:gh-scraped && npm run export && npm run deploy:gh-pages
+    - npm test && npm run fetch:gh-scraped && npm run export && npm run deploy:gh-pages
