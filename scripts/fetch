@@ -1,24 +1,29 @@
 #!/bin/bash -eu
 
-URL="git@github.com:gaggle/repos.jonlauridsen.com.git"
+SOURCE_BRANCH=${1}
 
-BRANCH=${1}
-FOLDER=$(cd "$(dirname "${2}")"; pwd)/$(basename "${2}")
+TARGET_FOLDER=${2}
 
-if [ -d "${FOLDER}" ]; then
-    echo "Folder already exists '${FOLDER}'"
+REPO=`git config remote.origin.url`
+SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
+
+SHA=`git rev-parse --verify HEAD`
+
+if [ -d "${TARGET_FOLDER}" ]; then
+    echo "Folder already exists '${TARGET_FOLDER}'"
     exit 1
 fi
 
-echo "Fetching '${BRANCH}' to folder '${FOLDER}'"
+mkdir -p ${TARGET_FOLDER}
 
-mkdir -p ${FOLDER}
-cd ${FOLDER}
+TARGET_FOLDER=$(cd "$(dirname "${TARGET_FOLDER}")"; pwd)/$(basename "${TARGET_FOLDER}")
 
-git init
-git remote add origin ${URL}
-git fetch origin --quiet
-git checkout ${BRANCH}
+echo "Fetching '${SOURCE_BRANCH}' to folder '${TARGET_FOLDER}'"
+
+git clone ${REPO} ${TARGET_FOLDER}
+cd ${TARGET_FOLDER}
+git checkout ${SOURCE_BRANCH}
+
 git pull
 
 rm -rf .git

@@ -1,38 +1,47 @@
 #!/bin/bash -eu
 
-URL="git@github.com:gaggle/repos.jonlauridsen.com.git"
+SOURCE_FOLDER=$(cd "$(dirname "${1}")"; pwd)/$(basename "${1}")
 
-FOLDER=$(cd "$(dirname "${1}")"; pwd)/$(basename "${1}")
-BRANCH=${2}
+SOURCE_BRANCH="master"
+TARGET_BRANCH=${2}
 
-if [ ! -d "${FOLDER}" ]; then
-    echo "Can't find folder '${FOLDER}'"
+REPO=`git config remote.origin.url`
+SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
+
+SHA=`git rev-parse --verify HEAD`
+
+if [ ! -d "${SOURCE_FOLDER}" ]; then
+    echo "Can't find folder '${SOURCE_FOLDER}'"
     exit 1
 fi
 
-TMP_FOLDER="tmp/deploy/`basename ${BRANCH}`"
+TMP_FOLDER="tmp/deploy/`basename ${TARGET_BRANCH}`"
+rm -rf ${TMP_FOLDER}
 mkdir -p ${TMP_FOLDER}
 TMP_FOLDER=$(cd "$(dirname "${TMP_FOLDER}")"; pwd)/$(basename "${TMP_FOLDER}")
 
-echo "Deploying '${FOLDER}' to branch '${BRANCH}'"
+echo "Deploying '${SOURCE_FOLDER}' to branch '${TARGET_BRANCH}'"
 
-rm -rf ${TMP_FOLDER}
-mkdir -p ${TMP_FOLDER}
+# Clone the existing branch for this repo into temporary folder
+# Create a new empty branch if branch doesn't exist yet (should only happen on first deploy)
+git clone ${REPO} ${TMP_FOLDER}
+
 cd ${TMP_FOLDER}
+git checkout ${TARGET_BRANCH} || git checkout --orphan ${TARGET_BRANCH}
 
-git init
-git remote add origin ${URL}
-git fetch origin --quiet
-git checkout ${BRANCH}
+# Clean out existing contents
+rm -rf ${TMP_FOLDER}/*
 
-rm -rf *
-cp -r ${FOLDER}/* .
+# Grab the new content
+cp -r ${SOURCE_FOLDER}/* ${TMP_FOLDER}
 
+# Push changes
 if [ -n "$(git status --porcelain)" ]; then
-    git add .
-    git commit -m "Update ${BRANCH}"
-    git push
-    echo "${BRANCH} deployed"
+    git add --all .
+    git commit --message "Deploy to ${TARGET_BRANCH}: ${SHA}"
+    git push ${SSH_REPO} ${TARGET_BRANCH}
+    echo "${TARGET_BRANCH} deployed"
 else
-    echo "Nothing to deploy for ${BRANCH}"
+    echo "No changes for ${TARGET_BRANCH}; exiting"
+    exit 0
 fi
