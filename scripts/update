@@ -37,7 +37,7 @@ rsync -a ${SOURCE_FOLDER}/ ${TMP_FOLDER}/${TARGET_FOLDER}/
 # Push changes
 if [ -n "$(git status --porcelain)" ]; then
     git add --all .
-    git commit --message "Deploy to ${TARGET_BRANCH}: ${SHA}"
+    git commit --message "Update to ${TARGET_BRANCH}: ${SHA}"
     git push ${SSH_REPO} ${TARGET_BRANCH}
     echo "${TARGET_BRANCH} deployed"
 else
