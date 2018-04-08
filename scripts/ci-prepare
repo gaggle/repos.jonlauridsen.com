@@ -1,14 +1,5 @@
 #!/bin/bash -e
 
-# setup ssh-agent and provide the GitHub deploy key
-#eval "$(ssh-agent -s)"
-#chmod 600 ~/.ssh/push_key
-#ssh-add ~/.ssh/push_key
-#echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
-
-
-
-
 # Get the deploy key by using Travis's stored variables to decrypt deploy_key.enc
 ENCRYPTED_KEY_VAR="encrypted_${ENCRYPTION_LABEL}_key"
 ENCRYPTED_IV_VAR="encrypted_${ENCRYPTION_LABEL}_iv"
@@ -23,6 +14,6 @@ ssh-add deploy_key
 KEY_PATH=$(cd "$(dirname "deploy_key")"; pwd)/$(basename "deploy_key")
 echo -e "Host github.com\n\tStrictHostKeyChecking no\n\tIdentityFile ${KEY_PATH}\n" >> ~/.ssh/config
 
-# configure git
+# Configure Git
 git config --global user.email "travis@travis-ci.org"
 git config --global user.name "Travis CI"
