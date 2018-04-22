@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-04-21T16:38:28.083Z",
+  "created_at": "2018-04-22T16:38:35.837Z",
   "repos": {
     "gaggle/adr-tools": {
       "badges": [
@@ -1405,7 +1405,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 156
+            "width": 149
           },
           "src": "gaggle/validate.js-array/a08dfbad80eb251e0df06ef7927340c4.svg"
         }
