@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-05-22T16:54:36.215Z",
+  "created_at": "2018-05-23T16:55:05.449Z",
   "repos": {
     "gaggle/adr-tools": {
       "badges": [
@@ -242,7 +242,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 101
+            "width": 94
           },
           "src": "gaggle/electricitymap/98180e075e0c3663d1c031392cac2611.svg"
         },
@@ -1255,9 +1255,9 @@
       "full_name": "gaggle/repo-scraper",
       "id": "gaggle/repo-scraper",
       "language": "JavaScript",
-      "open_issues": 0,
+      "open_issues": 1,
       "open_issues_html_url": "https://github.com/gaggle/repo-scraper/issues",
-      "open_pullrequests": 0,
+      "open_pullrequests": 1,
       "open_pullrequests_html_url": "https://github.com/gaggle/repo-scraper/pulls",
       "owner_html_url": "https://github.com/gaggle",
       "owner_name": "gaggle",
@@ -1405,7 +1405,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 146
           },
           "src": "gaggle/validate.js-array/a08dfbad80eb251e0df06ef7927340c4.svg"
         }
