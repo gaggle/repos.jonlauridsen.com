@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-05-29T16:57:34.385Z",
+  "created_at": "2018-05-30T16:58:24.543Z",
   "repos": {
     "gaggle/adr-tools": {
       "badges": [
@@ -242,7 +242,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 101
+            "width": 94
           },
           "src": "gaggle/electricitymap/98180e075e0c3663d1c031392cac2611.svg"
         },
