@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-06-23T17:13:10.948Z",
+  "created_at": "2018-06-24T17:14:09.264Z",
   "repos": {
     "gaggle/adr-tools": {
       "badges": [
@@ -1050,6 +1050,16 @@
             "width": 110
           },
           "src": "gaggle/nunjucks-tags-typography/581a1d4db0abcf56ed7432bee721fed8.svg"
+        },
+        {
+          "canonical_src": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/nunjucks-tags-typography/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "Collection of custom tags for Nunjucks",
