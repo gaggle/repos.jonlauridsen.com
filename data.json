@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-07-22T17:27:26.663Z",
+  "created_at": "2018-07-24T17:28:32.198Z",
   "repos": {
     "gaggle/adr-tools": {
       "badges": [
@@ -835,7 +835,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 81
+            "width": 90
           },
           "src": "gaggle/metalsmith-permalinks/bc46877c25cad47fe085ec9067a19ece.svg"
         }
@@ -1303,7 +1303,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 90
+            "width": 76
           },
           "src": "gaggle/repos.jonlauridsen.com/1b2df2023c5b0b2d0cebbaab1399c322.svg"
         }
