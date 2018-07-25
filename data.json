@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-07-24T17:28:32.198Z",
+  "created_at": "2018-07-25T17:29:18.742Z",
   "repos": {
     "gaggle/adr-tools": {
       "badges": [
@@ -1080,6 +1080,16 @@
             "width": 110
           },
           "src": "gaggle/nunjucks-tags-typography/581a1d4db0abcf56ed7432bee721fed8.svg"
+        },
+        {
+          "canonical_src": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/nunjucks-tags-typography/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "Collection of custom tags for Nunjucks",
@@ -1303,7 +1313,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 76
+            "width": 90
           },
           "src": "gaggle/repos.jonlauridsen.com/1b2df2023c5b0b2d0cebbaab1399c322.svg"
         }
