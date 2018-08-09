@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-08-08T17:38:17.227Z",
+  "created_at": "2018-08-09T17:39:46.610Z",
   "repos": {
     "gaggle/adr-tools": {
       "badges": [
@@ -629,7 +629,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 134
+            "width": 108
           },
           "src": "gaggle/metalsmith-engine-jstransformer/89833c768a87b72c222703c3b4ca54cf.svg"
         },
