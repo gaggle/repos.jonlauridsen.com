@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-08-16T17:42:19.981Z",
+  "created_at": "2018-08-17T17:42:12.110Z",
   "repos": {
     "gaggle/adr-tools": {
       "badges": [
@@ -355,6 +355,16 @@
     "gaggle/gaggle": {
       "badges": [
         {
+          "canonical_src": "https://travis-ci.org/gaggle/gaggle.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/gaggle",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/gaggle/e619a10ce4ea6cbc0153c0a6abf3a2d2.svg"
+        },
+        {
           "canonical_src": "https://api.codacy.com/project/badge/Grade/bf677b3778a14823b77ae7f68c485616",
           "href": "https://www.codacy.com/app/gaggle/gaggle?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gaggle/gaggle&amp;utm_campaign=Badge_Grade",
           "size": {
@@ -512,6 +522,16 @@
     },
     "gaggle/keys-of-obj": {
       "badges": [
+        {
+          "canonical_src": "https://travis-ci.org/gaggle/keys-of-obj.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/keys-of-obj",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/keys-of-obj/fde33d91d3e2ae0ca083bdd6f630a98b.svg"
+        },
         {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/keys-of-obj/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/keys-of-obj?branch=master",
@@ -718,6 +738,16 @@
     },
     "gaggle/metalsmith-nunjucks": {
       "badges": [
+        {
+          "canonical_src": "https://travis-ci.org/gaggle/metalsmith-nunjucks.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/metalsmith-nunjucks",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/metalsmith-nunjucks/fdeca0e9cbd566d36d2542febf1f0c3d.svg"
+        }
       ],
       "description": null,
       "full_name": "gaggle/metalsmith-nunjucks",
@@ -1050,16 +1080,6 @@
             "width": 110
           },
           "src": "gaggle/nunjucks-tags-typography/581a1d4db0abcf56ed7432bee721fed8.svg"
-        },
-        {
-          "canonical_src": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
-          "href": "https://standardjs.com",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 124
-          },
-          "src": "gaggle/nunjucks-tags-typography/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "Collection of custom tags for Nunjucks",
@@ -1078,6 +1098,16 @@
     },
     "gaggle/pairedmq": {
       "badges": [
+        {
+          "canonical_src": "https://travis-ci.org/gaggle/pairedmq.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/pairedmq",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/pairedmq/e321815831102b89b5541cf6e8766fb2.svg"
+        }
       ],
       "description": "Simple paired client/server RPC",
       "full_name": "gaggle/pairedmq",
@@ -1256,6 +1286,16 @@
             "width": 90
           },
           "src": "gaggle/repo-scraper/7360a869f9760a997039162fcd36a715.svg"
+        },
+        {
+          "canonical_src": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/repo-scraper/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": null,
@@ -1544,6 +1584,16 @@
     },
     "gaggle/xmlcompare": {
       "badges": [
+        {
+          "canonical_src": "https://travis-ci.org/gaggle/xmlcompare.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/xmlcompare",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/xmlcompare/567eab13eb8e44510fc50954baaa9c18.svg"
+        }
       ],
       "description": "Assert xml equality",
       "full_name": "gaggle/xmlcompare",
