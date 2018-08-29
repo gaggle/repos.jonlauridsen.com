@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-08-28T17:46:25.850Z",
+  "created_at": "2018-08-29T17:47:26.042Z",
   "repos": {
     "gaggle/adr-tools": {
       "badges": [
@@ -307,16 +307,6 @@
     },
     "gaggle/flatten-nested-arrays.js": {
       "badges": [
-        {
-          "canonical_src": "https://travis-ci.org/gaggle/flatten-nested-arrays.js.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/flatten-nested-arrays.js",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/flatten-nested-arrays.js/aa0d94a3695c56a628166a7a2fec4170.svg"
-        },
         {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/flatten-nested-arrays.js/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/flatten-nested-arrays.js?branch=master",
@@ -1132,6 +1122,16 @@
     },
     "gaggle/parse-github-url": {
       "badges": [
+        {
+          "canonical_src": "https://travis-ci.org/gaggle/parse-github-url.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/parse-github-url",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/parse-github-url/340afc40239598d9172cf70eae889dd8.svg"
+        }
       ],
       "description": null,
       "full_name": "gaggle/parse-github-url",
@@ -1432,7 +1432,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 146
+            "width": 149
           },
           "src": "gaggle/validate.js-array/a08dfbad80eb251e0df06ef7927340c4.svg"
         }
