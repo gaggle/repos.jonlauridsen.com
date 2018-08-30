@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-08-29T17:47:26.042Z",
+  "created_at": "2018-08-30T17:47:30.535Z",
   "repos": {
     "gaggle/adr-tools": {
       "badges": [
@@ -308,6 +308,16 @@
     "gaggle/flatten-nested-arrays.js": {
       "badges": [
         {
+          "canonical_src": "https://travis-ci.org/gaggle/flatten-nested-arrays.js.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/flatten-nested-arrays.js",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/flatten-nested-arrays.js/aa0d94a3695c56a628166a7a2fec4170.svg"
+        },
+        {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/flatten-nested-arrays.js/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/flatten-nested-arrays.js?branch=master",
           "size": {
@@ -512,6 +522,16 @@
     },
     "gaggle/keys-of-obj": {
       "badges": [
+        {
+          "canonical_src": "https://travis-ci.org/gaggle/keys-of-obj.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/keys-of-obj",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/keys-of-obj/fde33d91d3e2ae0ca083bdd6f630a98b.svg"
+        },
         {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/keys-of-obj/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/keys-of-obj?branch=master",
@@ -718,16 +738,6 @@
     },
     "gaggle/metalsmith-nunjucks": {
       "badges": [
-        {
-          "canonical_src": "https://travis-ci.org/gaggle/metalsmith-nunjucks.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/metalsmith-nunjucks",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/metalsmith-nunjucks/fdeca0e9cbd566d36d2542febf1f0c3d.svg"
-        }
       ],
       "description": null,
       "full_name": "gaggle/metalsmith-nunjucks",
