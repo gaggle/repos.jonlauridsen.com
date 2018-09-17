@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-09-16T17:55:22.427Z",
+  "created_at": "2018-09-17T17:56:25.610Z",
   "repos": {
     "gaggle/adr-tools": {
       "badges": [
@@ -47,16 +47,6 @@
     },
     "gaggle/assert-dir": {
       "badges": [
-        {
-          "canonical_src": "https://travis-ci.org/gaggle/assert-dir.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/assert-dir",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/assert-dir/fda7b3ca8abe2987972a3e542861e457.svg"
-        }
       ],
       "description": "Asynchronous assertion of two folders being identical",
       "full_name": "gaggle/assert-dir",
@@ -355,16 +345,6 @@
     "gaggle/gaggle": {
       "badges": [
         {
-          "canonical_src": "https://travis-ci.org/gaggle/gaggle.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/gaggle",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/gaggle/e619a10ce4ea6cbc0153c0a6abf3a2d2.svg"
-        },
-        {
           "canonical_src": "https://api.codacy.com/project/badge/Grade/bf677b3778a14823b77ae7f68c485616",
           "href": "https://www.codacy.com/app/gaggle/gaggle?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gaggle/gaggle&amp;utm_campaign=Badge_Grade",
           "size": {
@@ -411,16 +391,6 @@
     },
     "gaggle/hash_decoder": {
       "badges": [
-        {
-          "canonical_src": "https://travis-ci.org/gaggle/hash_decoder.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/hash_decoder",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/hash_decoder/a8ffda0a0275b147d262a2f02258a280.svg"
-        },
         {
           "canonical_src": "https://codecov.io/gh/gaggle/hash_decoder/branch/master/graph/badge.svg",
           "href": "https://codecov.io/gh/gaggle/hash_decoder",
@@ -548,7 +518,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 126
+            "width": 149
           },
           "src": "gaggle/keys-of-obj/8f6f7140802f69772092d6a1510b8637.svg"
         }
@@ -738,16 +708,6 @@
     },
     "gaggle/metalsmith-nunjucks": {
       "badges": [
-        {
-          "canonical_src": "https://travis-ci.org/gaggle/metalsmith-nunjucks.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/metalsmith-nunjucks",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/metalsmith-nunjucks/fdeca0e9cbd566d36d2542febf1f0c3d.svg"
-        }
       ],
       "description": null,
       "full_name": "gaggle/metalsmith-nunjucks",
@@ -916,7 +876,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 146
+            "width": 149
           },
           "src": "gaggle/mocked-data/face4a8e796b7cec47ac197a817a9d2e.svg"
         }
@@ -984,16 +944,6 @@
     },
     "gaggle/nunjucks-tags": {
       "badges": [
-        {
-          "canonical_src": "https://travis-ci.org/gaggle/nunjucks-tags.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/nunjucks-tags",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/nunjucks-tags/f7843780d2f9947c95314fd7619f35ec.svg"
-        },
         {
           "canonical_src": "https://codecov.io/gh/gaggle/nunjucks-tags/branch/master/graph/badge.svg",
           "href": "https://codecov.io/gh/gaggle/nunjucks-tags",
@@ -1080,16 +1030,6 @@
             "width": 110
           },
           "src": "gaggle/nunjucks-tags-typography/581a1d4db0abcf56ed7432bee721fed8.svg"
-        },
-        {
-          "canonical_src": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
-          "href": "https://standardjs.com",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 124
-          },
-          "src": "gaggle/nunjucks-tags-typography/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "Collection of custom tags for Nunjucks",
@@ -1108,16 +1048,6 @@
     },
     "gaggle/pairedmq": {
       "badges": [
-        {
-          "canonical_src": "https://travis-ci.org/gaggle/pairedmq.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/pairedmq",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/pairedmq/e321815831102b89b5541cf6e8766fb2.svg"
-        }
       ],
       "description": "Simple paired client/server RPC",
       "full_name": "gaggle/pairedmq",
@@ -1152,16 +1082,6 @@
     },
     "gaggle/parse-github-url": {
       "badges": [
-        {
-          "canonical_src": "https://travis-ci.org/gaggle/parse-github-url.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/parse-github-url",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/parse-github-url/340afc40239598d9172cf70eae889dd8.svg"
-        }
       ],
       "description": null,
       "full_name": "gaggle/parse-github-url",
@@ -1205,7 +1125,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 156
+            "width": 149
           },
           "src": "gaggle/pem-parser/acf89aa1e0d293c2ff581c86de708f92.svg"
         }
@@ -1296,6 +1216,16 @@
             "width": 90
           },
           "src": "gaggle/repo-scraper/7360a869f9760a997039162fcd36a715.svg"
+        },
+        {
+          "canonical_src": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/repo-scraper/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": null,
@@ -1452,7 +1382,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 146
+            "width": 149
           },
           "src": "gaggle/validate.js-array/a08dfbad80eb251e0df06ef7927340c4.svg"
         }
@@ -1499,7 +1429,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 146
+            "width": 149
           },
           "src": "gaggle/validate.js-enum/05c5ada968c01c780600b3199957e279.svg"
         }
@@ -1546,7 +1476,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 146
+            "width": 149
           },
           "src": "gaggle/validate.js-xor/567a159933affbf67325b7771bfe7222.svg"
         }
