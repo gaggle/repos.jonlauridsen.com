@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-09-26T18:00:39.107Z",
+  "created_at": "2018-09-27T18:02:31.857Z",
   "repos": {
     "gaggle/adr-tools": {
       "badges": [
@@ -47,16 +47,6 @@
     },
     "gaggle/assert-dir": {
       "badges": [
-        {
-          "canonical_src": "https://travis-ci.org/gaggle/assert-dir.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/assert-dir",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/assert-dir/fda7b3ca8abe2987972a3e542861e457.svg"
-        }
       ],
       "description": "Asynchronous assertion of two folders being identical",
       "full_name": "gaggle/assert-dir",
@@ -1098,16 +1088,6 @@
     },
     "gaggle/pairedmq": {
       "badges": [
-        {
-          "canonical_src": "https://travis-ci.org/gaggle/pairedmq.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/pairedmq",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/pairedmq/e321815831102b89b5541cf6e8766fb2.svg"
-        }
       ],
       "description": "Simple paired client/server RPC",
       "full_name": "gaggle/pairedmq",
@@ -1473,16 +1453,6 @@
     },
     "gaggle/validate.js-enum": {
       "badges": [
-        {
-          "canonical_src": "https://travis-ci.org/gaggle/validate.js-enum.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/validate.js-enum",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/validate.js-enum/ee310f59aeca63facd1202d8c6e715d0.svg"
-        },
         {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/validate.js-enum/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/validate.js-enum?branch=master",
