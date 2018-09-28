@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-09-27T18:02:31.857Z",
+  "created_at": "2018-09-28T18:02:04.114Z",
   "repos": {
     "gaggle/adr-tools": {
       "badges": [
@@ -47,6 +47,16 @@
     },
     "gaggle/assert-dir": {
       "badges": [
+        {
+          "canonical_src": "https://travis-ci.org/gaggle/assert-dir.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/assert-dir",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/assert-dir/fda7b3ca8abe2987972a3e542861e457.svg"
+        }
       ],
       "description": "Asynchronous assertion of two folders being identical",
       "full_name": "gaggle/assert-dir",
@@ -232,7 +242,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 101
+            "width": 94
           },
           "src": "gaggle/electricitymap/98180e075e0c3663d1c031392cac2611.svg"
         },
@@ -538,7 +548,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 126
+            "width": 149
           },
           "src": "gaggle/keys-of-obj/8f6f7140802f69772092d6a1510b8637.svg"
         }
@@ -906,7 +916,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 146
+            "width": 149
           },
           "src": "gaggle/mocked-data/face4a8e796b7cec47ac197a817a9d2e.svg"
         }
@@ -1070,6 +1080,16 @@
             "width": 110
           },
           "src": "gaggle/nunjucks-tags-typography/581a1d4db0abcf56ed7432bee721fed8.svg"
+        },
+        {
+          "canonical_src": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/nunjucks-tags-typography/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "Collection of custom tags for Nunjucks",
@@ -1088,6 +1108,16 @@
     },
     "gaggle/pairedmq": {
       "badges": [
+        {
+          "canonical_src": "https://travis-ci.org/gaggle/pairedmq.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/pairedmq",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/pairedmq/e321815831102b89b5541cf6e8766fb2.svg"
+        }
       ],
       "description": "Simple paired client/server RPC",
       "full_name": "gaggle/pairedmq",
@@ -1175,7 +1205,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 156
+            "width": 149
           },
           "src": "gaggle/pem-parser/acf89aa1e0d293c2ff581c86de708f92.svg"
         }
@@ -1454,6 +1484,16 @@
     "gaggle/validate.js-enum": {
       "badges": [
         {
+          "canonical_src": "https://travis-ci.org/gaggle/validate.js-enum.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/validate.js-enum",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/validate.js-enum/ee310f59aeca63facd1202d8c6e715d0.svg"
+        },
+        {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/validate.js-enum/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/validate.js-enum?branch=master",
           "size": {
@@ -1469,7 +1509,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 146
+            "width": 149
           },
           "src": "gaggle/validate.js-enum/05c5ada968c01c780600b3199957e279.svg"
         }
@@ -1516,7 +1556,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 146
+            "width": 149
           },
           "src": "gaggle/validate.js-xor/567a159933affbf67325b7771bfe7222.svg"
         }
