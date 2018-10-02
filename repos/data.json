@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-10-01T18:04:50.591Z",
+  "created_at": "2018-10-02T18:03:41.304Z",
   "repos": {
     "gaggle/adr-tools": {
       "badges": [
@@ -891,16 +891,6 @@
     "gaggle/mocked-data": {
       "badges": [
         {
-          "canonical_src": "https://travis-ci.org/gaggle/mocked-data.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/mocked-data",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/mocked-data/5bdbbbf57f4c051008e84a9030b901bc.svg"
-        },
-        {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/mocked-data/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/mocked-data?branch=master",
           "size": {
@@ -1080,16 +1070,6 @@
             "width": 110
           },
           "src": "gaggle/nunjucks-tags-typography/581a1d4db0abcf56ed7432bee721fed8.svg"
-        },
-        {
-          "canonical_src": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
-          "href": "https://standardjs.com",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 124
-          },
-          "src": "gaggle/nunjucks-tags-typography/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "Collection of custom tags for Nunjucks",
@@ -1462,7 +1442,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 146
           },
           "src": "gaggle/validate.js-array/a08dfbad80eb251e0df06ef7927340c4.svg"
         }
@@ -1621,16 +1601,6 @@
     },
     "rgalanakis/brennivin": {
       "badges": [
-        {
-          "canonical_src": "https://travis-ci.org/rgalanakis/brennivin.svg?branch=master",
-          "href": "https://travis-ci.org/rgalanakis/brennivin",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "rgalanakis/brennivin/71e745bc99b0ee832f03736409b2f9ee.svg"
-        },
         {
           "canonical_src": "https://img.shields.io/coveralls/rgalanakis/brennivin.svg",
           "href": "https://coveralls.io/r/rgalanakis/brennivin",
