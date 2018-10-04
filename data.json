@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-10-02T18:03:41.304Z",
+  "created_at": "2018-10-04T18:04:46.913Z",
   "repos": {
     "gaggle/adr-tools": {
       "badges": [
@@ -242,7 +242,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 101
+            "width": 94
           },
           "src": "gaggle/electricitymap/98180e075e0c3663d1c031392cac2611.svg"
         },
@@ -308,16 +308,6 @@
     "gaggle/flatten-nested-arrays.js": {
       "badges": [
         {
-          "canonical_src": "https://travis-ci.org/gaggle/flatten-nested-arrays.js.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/flatten-nested-arrays.js",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/flatten-nested-arrays.js/aa0d94a3695c56a628166a7a2fec4170.svg"
-        },
-        {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/flatten-nested-arrays.js/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/flatten-nested-arrays.js?branch=master",
           "size": {
@@ -354,16 +344,6 @@
     },
     "gaggle/gaggle": {
       "badges": [
-        {
-          "canonical_src": "https://travis-ci.org/gaggle/gaggle.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/gaggle",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/gaggle/e619a10ce4ea6cbc0153c0a6abf3a2d2.svg"
-        },
         {
           "canonical_src": "https://api.codacy.com/project/badge/Grade/bf677b3778a14823b77ae7f68c485616",
           "href": "https://www.codacy.com/app/gaggle/gaggle?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gaggle/gaggle&amp;utm_campaign=Badge_Grade",
@@ -548,7 +528,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 126
           },
           "src": "gaggle/keys-of-obj/8f6f7140802f69772092d6a1510b8637.svg"
         }
@@ -629,7 +609,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 116
+            "width": 108
           },
           "src": "gaggle/metalsmith-engine-jstransformer/89833c768a87b72c222703c3b4ca54cf.svg"
         },
@@ -891,6 +871,16 @@
     "gaggle/mocked-data": {
       "badges": [
         {
+          "canonical_src": "https://travis-ci.org/gaggle/mocked-data.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/mocked-data",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/mocked-data/5bdbbbf57f4c051008e84a9030b901bc.svg"
+        },
+        {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/mocked-data/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/mocked-data?branch=master",
           "size": {
@@ -906,7 +896,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 146
           },
           "src": "gaggle/mocked-data/face4a8e796b7cec47ac197a817a9d2e.svg"
         }
@@ -1185,7 +1175,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 156
           },
           "src": "gaggle/pem-parser/acf89aa1e0d293c2ff581c86de708f92.svg"
         }
@@ -1310,7 +1300,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 90
+            "width": 81
           },
           "src": "gaggle/repos.jonlauridsen.com/1b2df2023c5b0b2d0cebbaab1399c322.svg"
         }
@@ -1489,7 +1479,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 146
           },
           "src": "gaggle/validate.js-enum/05c5ada968c01c780600b3199957e279.svg"
         }
@@ -1536,7 +1526,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 146
           },
           "src": "gaggle/validate.js-xor/567a159933affbf67325b7771bfe7222.svg"
         }
@@ -1601,6 +1591,16 @@
     },
     "rgalanakis/brennivin": {
       "badges": [
+        {
+          "canonical_src": "https://travis-ci.org/rgalanakis/brennivin.svg?branch=master",
+          "href": "https://travis-ci.org/rgalanakis/brennivin",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "rgalanakis/brennivin/71e745bc99b0ee832f03736409b2f9ee.svg"
+        },
         {
           "canonical_src": "https://img.shields.io/coveralls/rgalanakis/brennivin.svg",
           "href": "https://coveralls.io/r/rgalanakis/brennivin",
