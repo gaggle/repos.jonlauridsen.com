@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-10-06T18:06:24.774Z",
+  "created_at": "2018-10-07T18:07:15.025Z",
   "repos": {
     "gaggle/adr-tools": {
       "badges": [
@@ -47,16 +47,6 @@
     },
     "gaggle/assert-dir": {
       "badges": [
-        {
-          "canonical_src": "https://travis-ci.org/gaggle/assert-dir.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/assert-dir",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/assert-dir/fda7b3ca8abe2987972a3e542861e457.svg"
-        }
       ],
       "description": "Asynchronous assertion of two folders being identical",
       "full_name": "gaggle/assert-dir",
@@ -828,6 +818,16 @@
             "width": 114
           },
           "src": "gaggle/metalsmith-permalinks/115f5bba903a2adb1c8713c1a34e6eaf.svg"
+        },
+        {
+          "canonical_src": "https://travis-ci.org/segmentio/metalsmith-permalinks.svg?branch=master",
+          "href": "https://travis-ci.org/segmentio/metalsmith-permalinks",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/metalsmith-permalinks/bc46877c25cad47fe085ec9067a19ece.svg"
         }
       ],
       "description": "A Metalsmith plugin for permalinks.",
@@ -1304,6 +1304,16 @@
     },
     "gaggle/repos.jonlauridsen.com": {
       "badges": [
+        {
+          "canonical_src": "https://travis-ci.org/gaggle/repos.jonlauridsen.com.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/repos.jonlauridsen.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/repos.jonlauridsen.com/1b2df2023c5b0b2d0cebbaab1399c322.svg"
+        }
       ],
       "description": null,
       "full_name": "gaggle/repos.jonlauridsen.com",
