@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-10-07T18:07:15.025Z",
+  "created_at": "2018-10-08T18:07:53.290Z",
   "repos": {
     "gaggle/adr-tools": {
       "badges": [
@@ -47,6 +47,16 @@
     },
     "gaggle/assert-dir": {
       "badges": [
+        {
+          "canonical_src": "https://travis-ci.org/gaggle/assert-dir.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/assert-dir",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/assert-dir/fda7b3ca8abe2987972a3e542861e457.svg"
+        }
       ],
       "description": "Asynchronous assertion of two folders being identical",
       "full_name": "gaggle/assert-dir",
@@ -232,7 +242,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 94
+            "width": 101
           },
           "src": "gaggle/electricitymap/98180e075e0c3663d1c031392cac2611.svg"
         },
