@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-10-11T18:09:34.997Z",
+  "created_at": "2018-10-12T18:10:08.351Z",
   "repos": {
     "gaggle/adr-tools": {
       "badges": [
@@ -629,7 +629,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 108
+            "width": 116
           },
           "src": "gaggle/metalsmith-engine-jstransformer/89833c768a87b72c222703c3b4ca54cf.svg"
         },
@@ -891,6 +891,16 @@
     "gaggle/mocked-data": {
       "badges": [
         {
+          "canonical_src": "https://travis-ci.org/gaggle/mocked-data.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/mocked-data",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/mocked-data/5bdbbbf57f4c051008e84a9030b901bc.svg"
+        },
+        {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/mocked-data/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/mocked-data?branch=master",
           "size": {
@@ -1070,16 +1080,6 @@
             "width": 110
           },
           "src": "gaggle/nunjucks-tags-typography/581a1d4db0abcf56ed7432bee721fed8.svg"
-        },
-        {
-          "canonical_src": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
-          "href": "https://standardjs.com",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 124
-          },
-          "src": "gaggle/nunjucks-tags-typography/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "Collection of custom tags for Nunjucks",
@@ -1520,6 +1520,16 @@
     },
     "gaggle/validate.js-xor": {
       "badges": [
+        {
+          "canonical_src": "https://travis-ci.org/gaggle/validate.js-xor.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/validate.js-xor",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/validate.js-xor/0eb15255e83e988e96ed6f508346e218.svg"
+        },
         {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/validate.js-xor/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/validate.js-xor?branch=master",
