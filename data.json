@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-10-25T18:21:47.627Z",
+  "created_at": "2018-10-26T18:19:01.349Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -269,7 +269,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 101
+            "width": 94
           },
           "src": "gaggle/electricitymap/98180e075e0c3663d1c031392cac2611.svg"
         },
@@ -575,7 +575,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 126
           },
           "src": "gaggle/keys-of-obj/8f6f7140802f69772092d6a1510b8637.svg"
         }
@@ -943,7 +943,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 146
           },
           "src": "gaggle/mocked-data/face4a8e796b7cec47ac197a817a9d2e.svg"
         }
@@ -1107,6 +1107,16 @@
             "width": 110
           },
           "src": "gaggle/nunjucks-tags-typography/581a1d4db0abcf56ed7432bee721fed8.svg"
+        },
+        {
+          "canonical_src": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/nunjucks-tags-typography/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "Collection of custom tags for Nunjucks",
@@ -1222,7 +1232,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 156
           },
           "src": "gaggle/pem-parser/acf89aa1e0d293c2ff581c86de708f92.svg"
         }
@@ -1479,7 +1489,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 146
           },
           "src": "gaggle/validate.js-array/a08dfbad80eb251e0df06ef7927340c4.svg"
         }
@@ -1526,7 +1536,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 146
           },
           "src": "gaggle/validate.js-enum/05c5ada968c01c780600b3199957e279.svg"
         }
@@ -1573,7 +1583,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 146
           },
           "src": "gaggle/validate.js-xor/567a159933affbf67325b7771bfe7222.svg"
         }
