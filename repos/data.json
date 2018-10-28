@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-10-27T18:19:38.762Z",
+  "created_at": "2018-10-28T18:20:18.789Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -447,6 +447,16 @@
             "width": 90
           },
           "src": "gaggle/hash_decoder/a8ffda0a0275b147d262a2f02258a280.svg"
+        },
+        {
+          "canonical_src": "https://codecov.io/gh/gaggle/hash_decoder/branch/master/graph/badge.svg",
+          "href": "https://codecov.io/gh/gaggle/hash_decoder",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 96
+          },
+          "src": "gaggle/hash_decoder/d6b8a821f48ce5a14df1255ea9d7cbbd.svg"
         },
         {
           "canonical_src": "https://api.codeclimate.com/v1/badges/a38a3b93be1611bb6a76/maintainability",
