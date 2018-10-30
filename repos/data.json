@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-10-29T18:21:55.443Z",
+  "created_at": "2018-10-30T18:21:30.248Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -227,16 +227,6 @@
     "gaggle/double-buffer.js": {
       "badges": [
         {
-          "canonical_src": "https://travis-ci.org/gaggle/double-buffer.js.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/double-buffer.js",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/double-buffer.js/20a02fd42755fc0bcb17537ade602963.svg"
-        },
-        {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/double-buffer.js/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/double-buffer.js?branch=master",
           "size": {
@@ -334,16 +324,6 @@
     },
     "gaggle/flatten-nested-arrays.js": {
       "badges": [
-        {
-          "canonical_src": "https://travis-ci.org/gaggle/flatten-nested-arrays.js.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/flatten-nested-arrays.js",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/flatten-nested-arrays.js/aa0d94a3695c56a628166a7a2fec4170.svg"
-        },
         {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/flatten-nested-arrays.js/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/flatten-nested-arrays.js?branch=master",
@@ -613,16 +593,6 @@
     },
     "gaggle/metalsmith-blog": {
       "badges": [
-        {
-          "canonical_src": "https://travis-ci.org/gaggle/metalsmith-blog.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/metalsmith-blog",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 81
-          },
-          "src": "gaggle/metalsmith-blog/8baa1501d28fd6f4d277549f1eaa06cd.svg"
-        }
       ],
       "description": "Opinionated plugin for metalsmith to generate a blog",
       "full_name": "gaggle/metalsmith-blog",
@@ -1107,6 +1077,16 @@
             "width": 110
           },
           "src": "gaggle/nunjucks-tags-typography/581a1d4db0abcf56ed7432bee721fed8.svg"
+        },
+        {
+          "canonical_src": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/nunjucks-tags-typography/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "Collection of custom tags for Nunjucks",
@@ -1125,16 +1105,6 @@
     },
     "gaggle/pairedmq": {
       "badges": [
-        {
-          "canonical_src": "https://travis-ci.org/gaggle/pairedmq.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/pairedmq",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/pairedmq/e321815831102b89b5541cf6e8766fb2.svg"
-        }
       ],
       "description": "Simple paired client/server RPC",
       "full_name": "gaggle/pairedmq",
@@ -1196,16 +1166,6 @@
     },
     "gaggle/pem-parser": {
       "badges": [
-        {
-          "canonical_src": "https://travis-ci.org/gaggle/pem-parser.svg?branch=master",
-          "href": "https://travis-ci.org/gaggle/pem-parser",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 90
-          },
-          "src": "gaggle/pem-parser/e43111f56fc421b85d9a28d7d5c25952.svg"
-        },
         {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/pem-parser/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/pem-parser?branch=master",
