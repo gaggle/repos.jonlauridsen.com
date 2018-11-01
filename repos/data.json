@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-10-31T18:23:54.758Z",
+  "created_at": "2018-11-01T18:24:58.722Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -335,6 +335,16 @@
     "gaggle/flatten-nested-arrays.js": {
       "badges": [
         {
+          "canonical_src": "https://travis-ci.org/gaggle/flatten-nested-arrays.js.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/flatten-nested-arrays.js",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/flatten-nested-arrays.js/aa0d94a3695c56a628166a7a2fec4170.svg"
+        },
+        {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/flatten-nested-arrays.js/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/flatten-nested-arrays.js?branch=master",
           "size": {
@@ -539,6 +549,16 @@
     },
     "gaggle/keys-of-obj": {
       "badges": [
+        {
+          "canonical_src": "https://travis-ci.org/gaggle/keys-of-obj.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/keys-of-obj",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/keys-of-obj/fde33d91d3e2ae0ca083bdd6f630a98b.svg"
+        },
         {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/keys-of-obj/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/keys-of-obj?branch=master",
@@ -898,6 +918,16 @@
     "gaggle/mocked-data": {
       "badges": [
         {
+          "canonical_src": "https://travis-ci.org/gaggle/mocked-data.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/mocked-data",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/mocked-data/5bdbbbf57f4c051008e84a9030b901bc.svg"
+        },
+        {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/mocked-data/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/mocked-data?branch=master",
           "size": {
@@ -934,6 +964,16 @@
     },
     "gaggle/morse-distress-cli": {
       "badges": [
+        {
+          "canonical_src": "https://travis-ci.org/gaggle/morse-distress-cli.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/morse-distress-cli",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/morse-distress-cli/bec845e623bc24b1887144637ddaecf3.svg"
+        },
         {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/morse-distress-cli/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/morse-distress-cli?branch=master",
@@ -1029,6 +1069,16 @@
     "gaggle/nunjucks-tags-typography": {
       "badges": [
         {
+          "canonical_src": "https://travis-ci.org/gaggle/nunjucks-tags-typography.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/nunjucks-tags-typography",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/nunjucks-tags-typography/989b1c3d23f5d76cdfce31bb8633cbda.svg"
+        },
+        {
           "canonical_src": "https://codeclimate.com/github/gaggle/nunjucks-tags-typography/badges/gpa.svg",
           "href": "https://codeclimate.com/github/gaggle/nunjucks-tags-typography",
           "size": {
@@ -1057,16 +1107,6 @@
             "width": 110
           },
           "src": "gaggle/nunjucks-tags-typography/581a1d4db0abcf56ed7432bee721fed8.svg"
-        },
-        {
-          "canonical_src": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
-          "href": "https://standardjs.com",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 124
-          },
-          "src": "gaggle/nunjucks-tags-typography/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "Collection of custom tags for Nunjucks",
@@ -1414,6 +1454,16 @@
     "gaggle/validate.js-array": {
       "badges": [
         {
+          "canonical_src": "https://travis-ci.org/gaggle/validate.js-array.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/validate.js-array",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/validate.js-array/5417b92cb2558025b1387ab3072b2555.svg"
+        },
+        {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/validate.js-array/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/validate.js-array?branch=master",
           "size": {
@@ -1498,6 +1548,16 @@
     "gaggle/validate.js-xor": {
       "badges": [
         {
+          "canonical_src": "https://travis-ci.org/gaggle/validate.js-xor.svg?branch=master",
+          "href": "https://travis-ci.org/gaggle/validate.js-xor",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "gaggle/validate.js-xor/0eb15255e83e988e96ed6f508346e218.svg"
+        },
+        {
           "canonical_src": "https://coveralls.io/repos/github/gaggle/validate.js-xor/badge.svg?branch=master",
           "href": "https://coveralls.io/github/gaggle/validate.js-xor?branch=master",
           "size": {
@@ -1578,6 +1638,16 @@
     },
     "rgalanakis/brennivin": {
       "badges": [
+        {
+          "canonical_src": "https://travis-ci.org/rgalanakis/brennivin.svg?branch=master",
+          "href": "https://travis-ci.org/rgalanakis/brennivin",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 90
+          },
+          "src": "rgalanakis/brennivin/71e745bc99b0ee832f03736409b2f9ee.svg"
+        },
         {
           "canonical_src": "https://img.shields.io/coveralls/rgalanakis/brennivin.svg",
           "href": "https://coveralls.io/r/rgalanakis/brennivin",
