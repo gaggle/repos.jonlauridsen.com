@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-11-15T18:30:46.125Z",
+  "created_at": "2018-11-16T18:31:50.034Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -1313,16 +1313,6 @@
             "width": 90
           },
           "src": "gaggle/repo-scraper/7360a869f9760a997039162fcd36a715.svg"
-        },
-        {
-          "canonical_src": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
-          "href": "https://standardjs.com",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 124
-          },
-          "src": "gaggle/repo-scraper/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": null,
@@ -1654,7 +1644,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 94
+            "width": 96
           },
           "src": "rgalanakis/brennivin/c651fb88b63b1363c32a25d5307eafa5.svg"
         }
