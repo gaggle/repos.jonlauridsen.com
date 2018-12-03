@@ -1,5 +1,5 @@
 {
-  "created_at": "2018-12-02T18:42:49.310Z",
+  "created_at": "2018-12-03T18:44:02.173Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -1097,6 +1097,16 @@
             "width": 110
           },
           "src": "gaggle/nunjucks-tags-typography/581a1d4db0abcf56ed7432bee721fed8.svg"
+        },
+        {
+          "canonical_src": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/nunjucks-tags-typography/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "Collection of custom tags for Nunjucks",
@@ -1261,7 +1271,7 @@
       "open_pullrequests_html_url": "https://github.com/gaggle/repo-components/pulls",
       "owner_html_url": "https://github.com/gaggle",
       "owner_name": "gaggle",
-      "readme_html": "<div id=\"readme\" class=\"instapaper_body md\" data-path=\"README.md\"><article class=\"markdown-body entry-content\" itemprop=\"text\"><h1><a id=\"user-content-repo-components\" class=\"anchor\" aria-hidden=\"true\" href=\"#repo-components\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>repo-components</h1>\n<p>UI components for <a href=\"https://www.github.com/gaggle/repo-lister\">repo-lister</a> project.</p>\n<h2><a id=\"user-content-development\" class=\"anchor\" aria-hidden=\"true\" href=\"#development\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Development</h2>\n<ul>\n<li><code>npm test</code> for tests and coverage</li>\n<li><code>npm run dev</code> will watch src files to generate artifacts and run local Styleguidist server</li>\n</ul>\n<h2><a id=\"user-content-cutting-a-new-release\" class=\"anchor\" aria-hidden=\"true\" href=\"#cutting-a-new-release\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Cutting a new release</h2>\n<p>Run this command to automatically increment version, build, commit, tag, and push a new release:</p>\n<div class=\"highlight highlight-source-shell\"><pre>npm version patch <span class=\"pl-k\">&amp;&amp;</span> npm run clean <span class=\"pl-k\">&amp;&amp;</span> (export VERSION=<span class=\"pl-s\"><span class=\"pl-pds\">`</span>node -p <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>require('./package.json').version<span class=\"pl-pds\">\"</span></span><span class=\"pl-pds\">`</span></span><span class=\"pl-k\">;</span> npm run build <span class=\"pl-k\">&amp;&amp;</span> git add ./build/ ./docs/ <span class=\"pl-k\">&amp;&amp;</span> git commit --amend --no-edit <span class=\"pl-k\">&amp;&amp;</span> git tag -fam <span class=\"pl-smi\">$VERSION</span> v<span class=\"pl-smi\">$VERSION</span> <span class=\"pl-k\">&amp;&amp;</span> git push <span class=\"pl-k\">&amp;&amp;</span> git push origin v<span class=\"pl-smi\">$VERSION</span>)</pre></div>\n</article></div>",
+      "readme_html": "<div id=\"readme\" class=\"instapaper_body md\" data-path=\"README.md\"><article class=\"markdown-body entry-content\" itemprop=\"text\"><h1><a id=\"user-content-repo-components\" class=\"anchor\" aria-hidden=\"true\" href=\"#repo-components\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>repo-components</h1>\n<p>UI components for <a href=\"https://www.github.com/gaggle/repo-lister\">repo-lister</a> project.</p>\n<h2><a id=\"user-content-development\" class=\"anchor\" aria-hidden=\"true\" href=\"#development\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Development</h2>\n<ul>\n<li><code>npm test</code> for tests and coverage</li>\n<li><code>npm run dev</code> will watch src files to generate artifacts and run local Styleguidist server</li>\n</ul>\n<h2><a id=\"user-content-cutting-a-new-release\" class=\"anchor\" aria-hidden=\"true\" href=\"#cutting-a-new-release\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Cutting a new release</h2>\n<p>Run this command to automatically increment version, build, commit, tag, and push a new release:</p>\n<div class=\"highlight highlight-source-shell\"><pre>npm <span class=\"pl-c1\">test</span> <span class=\"pl-k\">&amp;&amp;</span> npm version patch <span class=\"pl-k\">&amp;&amp;</span> npm run clean <span class=\"pl-k\">&amp;&amp;</span> (export VERSION=<span class=\"pl-s\"><span class=\"pl-pds\">`</span>node -p <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>require('./package.json').version<span class=\"pl-pds\">\"</span></span><span class=\"pl-pds\">`</span></span><span class=\"pl-k\">;</span> npm run build <span class=\"pl-k\">&amp;&amp;</span> git add ./build/ ./docs/ <span class=\"pl-k\">&amp;&amp;</span> git commit --amend --no-edit <span class=\"pl-k\">&amp;&amp;</span> git tag -fam <span class=\"pl-smi\">$VERSION</span> v<span class=\"pl-smi\">$VERSION</span> <span class=\"pl-k\">&amp;&amp;</span> git push <span class=\"pl-k\">&amp;&amp;</span> git push origin v<span class=\"pl-smi\">$VERSION</span>)</pre></div>\n</article></div>",
       "repo_html_url": "https://github.com/gaggle/repo-components",
       "repo_name": "repo-components"
     },
@@ -1282,9 +1292,9 @@
       "full_name": "gaggle/repo-lister",
       "id": "gaggle/repo-lister",
       "language": "JavaScript",
-      "open_issues": 1,
+      "open_issues": 2,
       "open_issues_html_url": "https://github.com/gaggle/repo-lister/issues",
-      "open_pullrequests": 1,
+      "open_pullrequests": 2,
       "open_pullrequests_html_url": "https://github.com/gaggle/repo-lister/pulls",
       "owner_html_url": "https://github.com/gaggle",
       "owner_name": "gaggle",
