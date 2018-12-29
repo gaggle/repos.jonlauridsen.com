@@ -1,0 +1,9 @@
+#!/bin/sh -eu
+
+DATA_URL=$1
+OUT_FOLDER=$2
+echo "Exporting to '${OUT_FOLDER}' w. URL '${DATA_URL}'"
+export DATA_URL=${DATA_URL}
+npx next build
+mkdir -p ${OUT_FOLDER}
+npx next export -o ${OUT_FOLDER}
