@@ -3,13 +3,14 @@
   "scripts": {
     "clean": "rm -rf tmp/",
     "deploy:gh-pages": "./scripts/deploy tmp/out/ gh-pages",
-    "deploy:gh-pages:update": "./scripts/update tmp/scraped/ repos/ gh-pages",
     "deploy:gh-scraped": "./scripts/deploy tmp/scraped/ gh-scraped",
-    "export": "repo-web http://repos.jonlauridsen.com -s=tmp/scraped/ -o=tmp/out/ --production",
-    "fetch:gh-scraped": "./scripts/fetch gh-scraped tmp/scraped/",
+    "deploy:update-gh-pages-with-scraped": "./scripts/update tmp/scraped/ static/repos gh-pages",
+    "export": "rm -rf tmp/out && docker build --build-arg SCRAPED_DIR=/app/scraped -t gaggle/repos.jonlauridsen.com-exporter . && docker run --rm -i -u $(id -u):$(id -g) -v \"$(pwd)/tmp\":/app gaggle/repos.jonlauridsen.com-exporter ${DATA_URL} /app/out",
+    "export:dev": "export DATA_URL=http://localhost:8080/static/repos/data.json && npm run export && cd tmp/out && serve -p 8080",
+    "export:prod": "export DATA_URL=http://repos.jonlauridsen.com/static/repos/data.json && npm run export",
     "postexport": "touch tmp/out/.nojekyll && echo repos.jonlauridsen.com > tmp/out/CNAME",
-    "scrape": "repo-scrape github -o=tmp/scraped/",
-    "test": "echo No tests"
+    "fetch:gh-scraped": "rm -rf tmp/scraped && ./scripts/fetch gh-scraped tmp/scraped/",
+    "scrape": "repo-scrape github -o=tmp/scraped/ -c=tmp/cache -vv"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,9 @@
   "author": "Jon Lauridsen <mail@jonlauridsen.com>",
   "license": "ISC",
   "dependencies": {
-    "repo-lister": "git+https://github.com/gaggle/repo-lister.git",
     "repo-scraper": "git+https://github.com/gaggle/repo-scraper.git"
+  },
+  "devDependencies": {
+    "serve": "^10.1.1"
   }
 }
