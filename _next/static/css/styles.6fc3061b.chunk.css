@@ -6751,15 +6751,18 @@ label.panel-block {
   padding: 1rem 0; }
   @media screen and (min-width: 769px), print {
     .repo-cards {
-      padding: 3rem 1.5rem; } }
+      padding: 1rem 1.5rem; } }
+  .repo-cards .card-header-title {
+    padding: .3rem .5rem; }
+  .repo-cards .card-content {
+    padding: .5rem; }
   .repo-cards .grid {
     margin: 0 auto; }
 
 .repo-card {
   background-color: #f9f9fc;
   border-radius: 0.2rem;
-  margin: .15rem;
-  padding: .3rem; }
+  margin: .15rem; }
   @media screen and (min-width: 769px), print {
     .repo-card {
       margin: .3rem; } }
