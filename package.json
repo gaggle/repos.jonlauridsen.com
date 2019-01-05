@@ -19,7 +19,7 @@
   "author": "Jon Lauridsen <mail@jonlauridsen.com>",
   "license": "ISC",
   "dependencies": {
-    "repo-scraper": "git+https://github.com/gaggle/repo-scraper.git"
+    "repo-scraper": "git+https://github.com/gaggle/repo-scraper.git#v0.4.0"
   },
   "devDependencies": {
     "serve": "^10.1.1"
