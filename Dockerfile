@@ -1,6 +1,6 @@
 FROM node:10-alpine
 ARG SCRAPED_DIR
-ARG VERSION=v0.2.2
+ARG VERSION=v0.2.3
 
 RUN apk update && \
     apk add git
