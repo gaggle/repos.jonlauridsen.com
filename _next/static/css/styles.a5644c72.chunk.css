@@ -6746,16 +6746,15 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+.is-pulled-right {
+  justify-content: flex-end; }
+
 .repo-cards {
   background-color: #d4d6d6;
   padding: 1rem 0; }
   @media screen and (min-width: 769px), print {
     .repo-cards {
       padding: 1rem 1.5rem; } }
-  .repo-cards .card-header-title {
-    padding: .3rem .5rem; }
-  .repo-cards .card-content {
-    padding: .5rem; }
   .repo-cards .grid {
     margin: 0 auto; }
 
@@ -6766,4 +6765,19 @@ label.panel-block {
   @media screen and (min-width: 769px), print {
     .repo-card {
       margin: .3rem; } }
+  .repo-card a {
+    transition: all .1s ease-in-out;
+    height: 22px;
+    margin-right: 2rem; }
+    @media screen and (min-width: 769px), print {
+      .repo-card a {
+        margin-right: 0; } }
+    .repo-card a:hover {
+      transform: scale(1.2); }
+  .repo-card .card-header-title {
+    padding: .3rem .5rem; }
+  .repo-card .card-content {
+    padding: .5rem; }
+  .repo-card .card-footer-item {
+    padding: .3rem 0 0 0; }
 
