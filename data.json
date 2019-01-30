@@ -1,5 +1,5 @@
 {
-  "createdAt": "2019-01-29T21:15:17.788Z",
+  "createdAt": "2019-01-30T19:17:31.042Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -432,7 +432,7 @@
       "language": "JavaScript",
       "openIssues": 0,
       "openIssuesHtmlUrl": "https://github.com/gaggle/gaggle/issues",
-      "openPullrequests": 3,
+      "openPullrequests": 1,
       "openPullrequestsHtmlUrl": "https://github.com/gaggle/gaggle/pulls",
       "ownerHtmlUrl": "https://github.com/gaggle",
       "ownerName": "gaggle",
@@ -1366,6 +1366,16 @@
             "width": 90
           },
           "src": "gaggle/repo-scraper/7360a869f9760a997039162fcd36a715.svg"
+        },
+        {
+          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/repo-scraper/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "CLI to scrape repositories",
@@ -1391,7 +1401,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 81
+            "width": 90
           },
           "src": "gaggle/repos.jonlauridsen.com/1b2df2023c5b0b2d0cebbaab1399c322.svg"
         }
@@ -1481,6 +1491,24 @@
       "readmeHtml": null,
       "repoHtmlUrl": "https://github.com/gaggle/time_to_learn_blog",
       "repoName": "time_to_learn_blog",
+      "scrapeRecipe": "github"
+    },
+    "gaggle/travis-cli-docker": {
+      "badges": [
+      ],
+      "description": "Travis CLI, but in Docker",
+      "fullName": "gaggle/travis-cli-docker",
+      "id": "gaggle/travis-cli-docker",
+      "language": "Shell",
+      "openIssues": 0,
+      "openIssuesHtmlUrl": "https://github.com/gaggle/travis-cli-docker/issues",
+      "openPullrequests": 0,
+      "openPullrequestsHtmlUrl": "https://github.com/gaggle/travis-cli-docker/pulls",
+      "ownerHtmlUrl": "https://github.com/gaggle",
+      "ownerName": "gaggle",
+      "readmeHtml": "<div id=\"readme\" class=\"instapaper_body md\" data-path=\"README.md\"><article class=\"markdown-body entry-content\" itemprop=\"text\"><h1><a id=\"user-content-travis-cli-docker\" class=\"anchor\" aria-hidden=\"true\" href=\"#travis-cli-docker\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>travis-cli-docker</h1>\n<p>Travis CLI, but in Docker</p>\n<h2><a id=\"user-content-installation\" class=\"anchor\" aria-hidden=\"true\" href=\"#installation\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Installation</h2>\n<p>Sync and run <code>make</code>, this will build the Docker image so it's available on your system</p>\n<h2><a id=\"user-content-usage\" class=\"anchor\" aria-hidden=\"true\" href=\"#usage\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Usage</h2>\n<p>Run <code>travis</code> script with arguments as you would the normal Travis CLI. E.g.</p>\n<div class=\"highlight highlight-source-shell\"><pre>$ ./travis report\n\n$ ./travis login\n\n$ ./travis report\nLogged In:                as <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>gaggle<span class=\"pl-pds\">\"</span></span></pre></div>\n<p>The current working directory is mapped into the Docker process.\nKeep in mind Travis can't see outside this directory due to Docker's security model,\nbut all subfolders are accessible.</p>\n<h2><a id=\"user-content-how-it-works\" class=\"anchor\" aria-hidden=\"true\" href=\"#how-it-works\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>How it works</h2>\n<p>Usually Docker images are effectively stateless,\nbut here the <code>travis</code> script commits all changes back on top of the image\nso all changes are persisted. This micks how the native Travis CLI works,\nso things like <code>travis login</code> persists.</p>\n<p>Furthermore the current working directory is mapped into the Docker image\nso you can use commands like <code>encrypt-file</code>.\nThe Docker image is run as your current user\nso any files created will have correct permissions.</p>\n</article></div>",
+      "repoHtmlUrl": "https://github.com/gaggle/travis-cli-docker",
+      "repoName": "travis-cli-docker",
       "scrapeRecipe": "github"
     },
     "gaggle/unity-unit-testing": {
