@@ -1,5 +1,5 @@
 {
-  "createdAt": "2019-02-20T19:26:37.194Z",
+  "createdAt": "2019-02-21T19:27:30.842Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -165,7 +165,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 88
+            "width": 80
           },
           "src": "gaggle/csslint/21255dbba96bec7be8fd92b6e7da644b.svg"
         },
@@ -1338,6 +1338,16 @@
             "width": 90
           },
           "src": "gaggle/repo-lister/8d8d00d5ff67eb1aaf3ed9169c8ea319.svg"
+        },
+        {
+          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/repo-lister/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "React-based offline repository overview",
