@@ -1,5 +1,5 @@
 {
-  "createdAt": "2019-03-25T19:46:04.288Z",
+  "createdAt": "2019-03-26T19:46:23.420Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -573,7 +573,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 126
           },
           "src": "gaggle/keys-of-obj/8f6f7140802f69772092d6a1510b8637.svg"
         }
@@ -955,7 +955,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 156
           },
           "src": "gaggle/mocked-data/face4a8e796b7cec47ac197a817a9d2e.svg"
         }
@@ -1241,7 +1241,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 156
           },
           "src": "gaggle/pem-parser/acf89aa1e0d293c2ff581c86de708f92.svg"
         }
@@ -1318,16 +1318,6 @@
             "width": 90
           },
           "src": "gaggle/repo-lister/8d8d00d5ff67eb1aaf3ed9169c8ea319.svg"
-        },
-        {
-          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
-          "href": "https://standardjs.com",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 124
-          },
-          "src": "gaggle/repo-lister/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "React-based offline repository overview",
@@ -1356,6 +1346,16 @@
             "width": 90
           },
           "src": "gaggle/repo-scraper/7360a869f9760a997039162fcd36a715.svg"
+        },
+        {
+          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/repo-scraper/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "CLI to scrape repositories",
@@ -1537,7 +1537,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 156
           },
           "src": "gaggle/validate.js-array/a08dfbad80eb251e0df06ef7927340c4.svg"
         }
@@ -1585,7 +1585,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 156
           },
           "src": "gaggle/validate.js-enum/05c5ada968c01c780600b3199957e279.svg"
         }
@@ -1633,7 +1633,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 156
           },
           "src": "gaggle/validate.js-xor/567a159933affbf67325b7771bfe7222.svg"
         }
