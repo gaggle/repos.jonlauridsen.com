@@ -1,5 +1,5 @@
 {
-  "createdAt": "2019-03-26T19:46:23.420Z",
+  "createdAt": "2019-03-27T20:10:15.387Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -1122,6 +1122,16 @@
             "width": 110
           },
           "src": "gaggle/nunjucks-tags-typography/581a1d4db0abcf56ed7432bee721fed8.svg"
+        },
+        {
+          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/nunjucks-tags-typography/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "Collection of custom tags for Nunjucks",
@@ -1346,16 +1356,6 @@
             "width": 90
           },
           "src": "gaggle/repo-scraper/7360a869f9760a997039162fcd36a715.svg"
-        },
-        {
-          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
-          "href": "https://standardjs.com",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 124
-          },
-          "src": "gaggle/repo-scraper/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "CLI to scrape repositories",
