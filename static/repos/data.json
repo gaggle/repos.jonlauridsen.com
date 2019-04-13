@@ -1,5 +1,5 @@
 {
-  "createdAt": "2019-04-12T19:55:26.375Z",
+  "createdAt": "2019-04-13T19:55:23.222Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -269,7 +269,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 101
+            "width": 94
           },
           "src": "gaggle/electricitymap/98180e075e0c3663d1c031392cac2611.svg"
         },
