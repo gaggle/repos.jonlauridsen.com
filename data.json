@@ -1,5 +1,5 @@
 {
-  "createdAt": "2019-07-12T20:40:18.305Z",
+  "createdAt": "2019-07-13T20:40:19.863Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -1381,7 +1381,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 81
+            "width": 90
           },
           "src": "gaggle/repos.jonlauridsen.com/1b2df2023c5b0b2d0cebbaab1399c322.svg"
         }
