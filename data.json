@@ -1,5 +1,5 @@
 {
-  "createdAt": "2019-08-11T17:14:37.147Z",
+  "createdAt": "2019-08-18T17:15:28.260Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -1439,7 +1439,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 81
+            "width": 90
           },
           "src": "gaggle/repos.jonlauridsen.com/1b2df2023c5b0b2d0cebbaab1399c322.svg"
         }
@@ -1633,7 +1633,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 156
           },
           "src": "gaggle/validate.js-array/a08dfbad80eb251e0df06ef7927340c4.svg"
         }
@@ -1681,7 +1681,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 156
+            "width": 149
           },
           "src": "gaggle/validate.js-enum/05c5ada968c01c780600b3199957e279.svg"
         }
