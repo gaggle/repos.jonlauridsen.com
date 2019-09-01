@@ -1,5 +1,5 @@
 {
-  "createdAt": "2019-08-25T17:16:16.776Z",
+  "createdAt": "2019-09-01T17:16:52.436Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -715,7 +715,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 144
+            "width": 140
           },
           "src": "gaggle/metalsmith-engine-jstransformer/89833c768a87b72c222703c3b4ca54cf.svg"
         },
@@ -1180,6 +1180,16 @@
             "width": 110
           },
           "src": "gaggle/nunjucks-tags-typography/581a1d4db0abcf56ed7432bee721fed8.svg"
+        },
+        {
+          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/nunjucks-tags-typography/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "Collection of custom tags for Nunjucks",
@@ -1404,16 +1414,6 @@
             "width": 90
           },
           "src": "gaggle/repo-scraper/7360a869f9760a997039162fcd36a715.svg"
-        },
-        {
-          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
-          "href": "https://standardjs.com",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 124
-          },
-          "src": "gaggle/repo-scraper/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "CLI to scrape repositories",
@@ -1633,7 +1633,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 156
+            "width": 149
           },
           "src": "gaggle/validate.js-array/a08dfbad80eb251e0df06ef7927340c4.svg"
         }
