@@ -1,5 +1,5 @@
 {
-  "createdAt": "2019-09-08T17:17:59.039Z",
+  "createdAt": "2019-09-15T17:18:41.172Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -1198,16 +1198,6 @@
             "width": 110
           },
           "src": "gaggle/nunjucks-tags-typography/581a1d4db0abcf56ed7432bee721fed8.svg"
-        },
-        {
-          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
-          "href": "https://standardjs.com",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 124
-          },
-          "src": "gaggle/nunjucks-tags-typography/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "Collection of custom tags for Nunjucks",
@@ -1404,6 +1394,16 @@
             "width": 90
           },
           "src": "gaggle/repo-lister/8d8d00d5ff67eb1aaf3ed9169c8ea319.svg"
+        },
+        {
+          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/repo-lister/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "React-based offline repository overview",
@@ -1651,7 +1651,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 156
           },
           "src": "gaggle/validate.js-array/a08dfbad80eb251e0df06ef7927340c4.svg"
         }
