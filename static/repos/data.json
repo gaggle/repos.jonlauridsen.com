@@ -1,5 +1,5 @@
 {
-  "createdAt": "2019-09-15T17:18:41.172Z",
+  "createdAt": "2019-09-22T17:19:01.022Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -565,22 +565,58 @@
       "repoName": "hexo-tag-gist-it",
       "scrapeRecipe": "github"
     },
-    "gaggle/jira-printer": {
+    "gaggle/jira-fetcher": {
       "badges": [
       ],
       "description": "WIP",
-      "fullName": "gaggle/jira-printer",
-      "id": "gaggle/jira-printer",
+      "fullName": "gaggle/jira-fetcher",
+      "id": "gaggle/jira-fetcher",
       "language": "TypeScript",
       "openIssues": 0,
-      "openIssuesHtmlUrl": "https://github.com/gaggle/jira-printer/issues",
+      "openIssuesHtmlUrl": "https://github.com/gaggle/jira-fetcher/issues",
       "openPullrequests": 0,
-      "openPullrequestsHtmlUrl": "https://github.com/gaggle/jira-printer/pulls",
+      "openPullrequestsHtmlUrl": "https://github.com/gaggle/jira-fetcher/pulls",
       "ownerHtmlUrl": "https://github.com/gaggle",
       "ownerName": "gaggle",
       "readmeHtml": null,
-      "repoHtmlUrl": "https://github.com/gaggle/jira-printer",
-      "repoName": "jira-printer",
+      "repoHtmlUrl": "https://github.com/gaggle/jira-fetcher",
+      "repoName": "jira-fetcher",
+      "scrapeRecipe": "github"
+    },
+    "gaggle/jira-renderer": {
+      "badges": [
+      ],
+      "description": null,
+      "fullName": "gaggle/jira-renderer",
+      "id": "gaggle/jira-renderer",
+      "language": "TypeScript",
+      "openIssues": 0,
+      "openIssuesHtmlUrl": "https://github.com/gaggle/jira-renderer/issues",
+      "openPullrequests": 0,
+      "openPullrequestsHtmlUrl": "https://github.com/gaggle/jira-renderer/pulls",
+      "ownerHtmlUrl": "https://github.com/gaggle",
+      "ownerName": "gaggle",
+      "readmeHtml": "<div id=\"readme\" class=\"instapaper_body md\" data-path=\"README.md\"><article class=\"markdown-body entry-content p-5\" itemprop=\"text\"><h1><a id=\"user-content-razzle-typescript-example\" class=\"anchor\" aria-hidden=\"true\" href=\"#razzle-typescript-example\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Razzle TypeScript Example</h1>\n<h2><a id=\"user-content-how-to-use\" class=\"anchor\" aria-hidden=\"true\" href=\"#how-to-use\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>How to use</h2>\n<p>Download the example <a href=\"https://github.com/jaredpalmer/razzle.git\">or clone the whole project</a>:</p>\n<div class=\"highlight highlight-source-shell\"><pre>curl https://codeload.github.com/jaredpalmer/razzle/tar.gz/master <span class=\"pl-k\">|</span> tar -xz --strip=2 razzle-master/examples/with-typescript\n<span class=\"pl-c1\">cd</span> with-typescript</pre></div>\n<p>Install it and run:</p>\n<div class=\"highlight highlight-source-shell\"><pre>yarn install\nyarn start</pre></div>\n<h2><a id=\"user-content-idea-behind-the-example\" class=\"anchor\" aria-hidden=\"true\" href=\"#idea-behind-the-example\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Idea behind the example</h2>\n<p>This is an of how to use Razzle with <a href=\"https://github.com/Microsoft/TypeScript\">TypeScript</a>.\nIn <code>razzle.config.js</code>, we locate the part of the webpack configuration\nthat is running <code>babel-loader</code> and swap it out for <code>ts-loader</code>.\nAdditionally, we make sure Razzle knows how to resolve <code>.ts</code> and <code>.tsx</code> files.</p>\n<p>Lastly, we also need to modify our Jest configuration to handle typescript files.\nThus we add <code>ts-jest</code> and <code>@types/jest</code> to our dev dependencies. Then we augment Razzle's default jest setup by adding a field in our <code>package.json</code>.</p>\n<div class=\"highlight highlight-source-json\"><pre>// package.json\n\n{\n  <span class=\"pl-ii\">...</span>\n  <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>jest<span class=\"pl-pds\">\"</span></span>: {\n    <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>transform<span class=\"pl-pds\">\"</span></span>: {\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span><span class=\"pl-cce\">\\\\</span>.(ts|tsx)$<span class=\"pl-pds\">\"</span></span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>&lt;rootDir&gt;/node_modules/ts-jest/preprocessor.js<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span><span class=\"pl-cce\">\\\\</span>.css$<span class=\"pl-pds\">\"</span></span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>&lt;rootDir&gt;/node_modules/razzle/config/jest/cssTransform.js<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>^(?!.*<span class=\"pl-cce\">\\\\</span>.(js|jsx|css|json)$)<span class=\"pl-pds\">\"</span></span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>&lt;rootDir&gt;/node_modules/razzle/config/jest/fileTransform.js<span class=\"pl-pds\">\"</span></span>\n    },\n    <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>testMatch<span class=\"pl-pds\">\"</span></span>: [\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>&lt;rootDir&gt;/src/**/__tests__/**/*.(ts|js)?(x)<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>&lt;rootDir&gt;/src/**/?(*.)(spec|test).(ts|js)?(x)<span class=\"pl-pds\">\"</span></span>\n    ],\n    <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>moduleFileExtensions<span class=\"pl-pds\">\"</span></span>: [\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>ts<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>tsx<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>js<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>json<span class=\"pl-pds\">\"</span></span>\n    ],\n    <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>collectCoverageFrom<span class=\"pl-pds\">\"</span></span>: [\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>src/**/*.{js,jsx,ts,tsx}<span class=\"pl-pds\">\"</span></span>\n    ]\n  }\n}</pre></div>\n<p>The <code>tslint.json</code> and <code>tsconfig.json</code> are taken from Microsoft's official\n<a href=\"https://github.com/Microsoft/TypeScript-React-Starter\">TypeScript-React-Starter</a>.</p>\n<p>Note: You do not techincally <em>need</em> to fully replace <code>babel-loader</code> with\n<code>ts-loader</code> to use TypeScript. Both TS and Babel transpile ES6 code,\nso when you run both webpack loaders you are making Razzle do twice the work. From our testing,\nthis can make HMR extremely slow on larger apps. Thus, this example overwrites\n<code>babel-loader</code> with <code>ts-loader</code>. However, if you are incrementally moving to typescript you may want to run both loaders side by side. If you are running both, add this to your <code>jest.transform</code> setup in <code>package.json</code>:</p>\n<pre><code>\"^.+\\\\.(js|jsx)$\": \"&lt;rootDir&gt;/node_modules/razzle/config/jest/babelTransform.js\",\n</code></pre>\n<p>This will continue to transform .js files through babel.</p>\n</article></div>",
+      "repoHtmlUrl": "https://github.com/gaggle/jira-renderer",
+      "repoName": "jira-renderer",
+      "scrapeRecipe": "github"
+    },
+    "gaggle/jira-saver": {
+      "badges": [
+      ],
+      "description": null,
+      "fullName": "gaggle/jira-saver",
+      "id": "gaggle/jira-saver",
+      "language": "JavaScript",
+      "openIssues": 0,
+      "openIssuesHtmlUrl": "https://github.com/gaggle/jira-saver/issues",
+      "openPullrequests": 0,
+      "openPullrequestsHtmlUrl": "https://github.com/gaggle/jira-saver/pulls",
+      "ownerHtmlUrl": "https://github.com/gaggle",
+      "ownerName": "gaggle",
+      "readmeHtml": null,
+      "repoHtmlUrl": "https://github.com/gaggle/jira-saver",
+      "repoName": "jira-saver",
       "scrapeRecipe": "github"
     },
     "gaggle/js-animate": {
@@ -1651,7 +1687,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 156
+            "width": 149
           },
           "src": "gaggle/validate.js-array/a08dfbad80eb251e0df06ef7927340c4.svg"
         }
