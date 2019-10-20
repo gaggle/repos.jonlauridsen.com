@@ -1,5 +1,5 @@
 {
-  "createdAt": "2019-10-13T17:20:15.633Z",
+  "createdAt": "2019-10-20T17:20:30.113Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -1687,7 +1687,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 156
+            "width": 149
           },
           "src": "gaggle/validate.js-array/a08dfbad80eb251e0df06ef7927340c4.svg"
         }
