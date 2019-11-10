@@ -1,5 +1,5 @@
 {
-  "createdAt": "2019-11-03T17:22:21.883Z",
+  "createdAt": "2019-11-10T17:22:42.607Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -565,40 +565,22 @@
       "repoName": "hexo-tag-gist-it",
       "scrapeRecipe": "github"
     },
-    "gaggle/jira-fetcher": {
+    "gaggle/jira-printer": {
       "badges": [
       ],
-      "description": "WIP",
-      "fullName": "gaggle/jira-fetcher",
-      "id": "gaggle/jira-fetcher",
+      "description": "Server to display Jira issues for easy printing",
+      "fullName": "gaggle/jira-printer",
+      "id": "gaggle/jira-printer",
       "language": "TypeScript",
       "openIssues": 0,
-      "openIssuesHtmlUrl": "https://github.com/gaggle/jira-fetcher/issues",
+      "openIssuesHtmlUrl": "https://github.com/gaggle/jira-printer/issues",
       "openPullrequests": 0,
-      "openPullrequestsHtmlUrl": "https://github.com/gaggle/jira-fetcher/pulls",
+      "openPullrequestsHtmlUrl": "https://github.com/gaggle/jira-printer/pulls",
       "ownerHtmlUrl": "https://github.com/gaggle",
       "ownerName": "gaggle",
-      "readmeHtml": null,
-      "repoHtmlUrl": "https://github.com/gaggle/jira-fetcher",
-      "repoName": "jira-fetcher",
-      "scrapeRecipe": "github"
-    },
-    "gaggle/jira-renderer": {
-      "badges": [
-      ],
-      "description": null,
-      "fullName": "gaggle/jira-renderer",
-      "id": "gaggle/jira-renderer",
-      "language": "TypeScript",
-      "openIssues": 0,
-      "openIssuesHtmlUrl": "https://github.com/gaggle/jira-renderer/issues",
-      "openPullrequests": 0,
-      "openPullrequestsHtmlUrl": "https://github.com/gaggle/jira-renderer/pulls",
-      "ownerHtmlUrl": "https://github.com/gaggle",
-      "ownerName": "gaggle",
-      "readmeHtml": "<div id=\"readme\" class=\"instapaper_body md\" data-path=\"README.md\"><article class=\"markdown-body entry-content p-5\" itemprop=\"text\"><h1><a id=\"user-content-razzle-typescript-example\" class=\"anchor\" aria-hidden=\"true\" href=\"#razzle-typescript-example\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Razzle TypeScript Example</h1>\n<h2><a id=\"user-content-how-to-use\" class=\"anchor\" aria-hidden=\"true\" href=\"#how-to-use\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>How to use</h2>\n<p>Download the example <a href=\"https://github.com/jaredpalmer/razzle.git\">or clone the whole project</a>:</p>\n<div class=\"highlight highlight-source-shell\"><pre>curl https://codeload.github.com/jaredpalmer/razzle/tar.gz/master <span class=\"pl-k\">|</span> tar -xz --strip=2 razzle-master/examples/with-typescript\n<span class=\"pl-c1\">cd</span> with-typescript</pre></div>\n<p>Install it and run:</p>\n<div class=\"highlight highlight-source-shell\"><pre>yarn install\nyarn start</pre></div>\n<h2><a id=\"user-content-idea-behind-the-example\" class=\"anchor\" aria-hidden=\"true\" href=\"#idea-behind-the-example\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Idea behind the example</h2>\n<p>This is an of how to use Razzle with <a href=\"https://github.com/Microsoft/TypeScript\">TypeScript</a>.\nIn <code>razzle.config.js</code>, we locate the part of the webpack configuration\nthat is running <code>babel-loader</code> and swap it out for <code>ts-loader</code>.\nAdditionally, we make sure Razzle knows how to resolve <code>.ts</code> and <code>.tsx</code> files.</p>\n<p>Lastly, we also need to modify our Jest configuration to handle typescript files.\nThus we add <code>ts-jest</code> and <code>@types/jest</code> to our dev dependencies. Then we augment Razzle's default jest setup by adding a field in our <code>package.json</code>.</p>\n<div class=\"highlight highlight-source-json\"><pre>// package.json\n\n{\n  <span class=\"pl-ii\">...</span>\n  <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>jest<span class=\"pl-pds\">\"</span></span>: {\n    <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>transform<span class=\"pl-pds\">\"</span></span>: {\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span><span class=\"pl-cce\">\\\\</span>.(ts|tsx)$<span class=\"pl-pds\">\"</span></span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>&lt;rootDir&gt;/node_modules/ts-jest/preprocessor.js<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span><span class=\"pl-cce\">\\\\</span>.css$<span class=\"pl-pds\">\"</span></span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>&lt;rootDir&gt;/node_modules/razzle/config/jest/cssTransform.js<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>^(?!.*<span class=\"pl-cce\">\\\\</span>.(js|jsx|css|json)$)<span class=\"pl-pds\">\"</span></span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>&lt;rootDir&gt;/node_modules/razzle/config/jest/fileTransform.js<span class=\"pl-pds\">\"</span></span>\n    },\n    <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>testMatch<span class=\"pl-pds\">\"</span></span>: [\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>&lt;rootDir&gt;/src/**/__tests__/**/*.(ts|js)?(x)<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>&lt;rootDir&gt;/src/**/?(*.)(spec|test).(ts|js)?(x)<span class=\"pl-pds\">\"</span></span>\n    ],\n    <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>moduleFileExtensions<span class=\"pl-pds\">\"</span></span>: [\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>ts<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>tsx<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>js<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>json<span class=\"pl-pds\">\"</span></span>\n    ],\n    <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>collectCoverageFrom<span class=\"pl-pds\">\"</span></span>: [\n      <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>src/**/*.{js,jsx,ts,tsx}<span class=\"pl-pds\">\"</span></span>\n    ]\n  }\n}</pre></div>\n<p>The <code>tslint.json</code> and <code>tsconfig.json</code> are taken from Microsoft's official\n<a href=\"https://github.com/Microsoft/TypeScript-React-Starter\">TypeScript-React-Starter</a>.</p>\n<p>Note: You do not techincally <em>need</em> to fully replace <code>babel-loader</code> with\n<code>ts-loader</code> to use TypeScript. Both TS and Babel transpile ES6 code,\nso when you run both webpack loaders you are making Razzle do twice the work. From our testing,\nthis can make HMR extremely slow on larger apps. Thus, this example overwrites\n<code>babel-loader</code> with <code>ts-loader</code>. However, if you are incrementally moving to typescript you may want to run both loaders side by side. If you are running both, add this to your <code>jest.transform</code> setup in <code>package.json</code>:</p>\n<pre><code>\"^.+\\\\.(js|jsx)$\": \"&lt;rootDir&gt;/node_modules/razzle/config/jest/babelTransform.js\",\n</code></pre>\n<p>This will continue to transform .js files through babel.</p>\n</article></div>",
-      "repoHtmlUrl": "https://github.com/gaggle/jira-renderer",
-      "repoName": "jira-renderer",
+      "readmeHtml": "<div id=\"readme\" class=\"instapaper_body md\" data-path=\"README.md\"><article class=\"markdown-body entry-content p-5\" itemprop=\"text\"><h1><a id=\"user-content-jira-printer\" class=\"anchor\" aria-hidden=\"true\" href=\"#jira-printer\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Jira Printer</h1>\n<h2><a id=\"user-content-how-to-use\" class=\"anchor\" aria-hidden=\"true\" href=\"#how-to-use\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>How to use</h2>\n<p>To install dependencies:</p>\n<div class=\"highlight highlight-source-shell\"><pre>npm ci</pre></div>\n<p>To start an auto-reloading development server use the <code>npm start</code> target,\nhowever a TOKEN_SECRET environment variable is required to successfully start.\nE.g.:</p>\n<div class=\"highlight highlight-source-shell\"><pre>TOKEN_SECRET=foobar npm start</pre></div>\n<p>Then visit <a href=\"http://localhost:3000\" rel=\"nofollow\">http://localhost:3000</a>:</p>\n<p>(but please use a strong secret,\nits used to encrypt client/server data and if it's too weak it would be possible to spoof the server)</p>\n<p>During development it is tiring to continuously have to log in,\nso these environment variables may be used to pre-fill the login form:</p>\n<ul>\n<li><code>JIRA_URL</code></li>\n<li><code>JIRA_TOKEN</code></li>\n<li><code>JIRA_USER</code></li>\n</ul>\n<h2><a id=\"user-content-acceptance-criteria\" class=\"anchor\" aria-hidden=\"true\" href=\"#acceptance-criteria\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Acceptance criteria</h2>\n<p>To manually verify against regressions these requirements must be adhered to:</p>\n<p><strong>I CAN LOG IN</strong></p>\n<ul>\n<li>\n<p>GIVEN I have no cookies and go to Home page</p>\n</li>\n<li>\n<p>THEN I'm asked for Jira credentials</p>\n</li>\n<li>\n<p>GIVEN I'm on Home Page and logged in</p>\n</li>\n<li>\n<p>THEN I have a cookie with expiration date in 2 hours</p>\n</li>\n<li>\n<p>GIVEN I'm on Home Page and logged in an hour ago</p>\n</li>\n<li>\n<p>WHEN I reload the page</p>\n</li>\n<li>\n<p>THEN cookie expiration date is in 2 hours</p>\n</li>\n<li>\n<p>GIVEN I'm on Home page and logged in</p>\n</li>\n<li>\n<p>WHEN I clear my cookies and reload the page</p>\n</li>\n<li>\n<p>THEN I'm asked for Jira credentials</p>\n</li>\n</ul>\n<p><strong>I CAN SEARCH FOR JIRA ISSUES</strong></p>\n<ul>\n<li>GIVEN I search for \"SEC-123, SEC-234, SEC-345\" from Home page</li>\n<li>THEN I'm taken to Issues page</li>\n<li>AND I see issues \"SEC-123 SEC-234 SEC-345\"</li>\n</ul>\n<p><strong>I CAN PRINT JIRA ISSUES</strong></p>\n<ul>\n<li>GIVEN I see issues \"SEC-123,SEC-234\"</li>\n<li>WHEN I print</li>\n<li>THEN I get printed version of SEC-123 SEC-234</li>\n</ul>\n<h2><a id=\"user-content-todoideas\" class=\"anchor\" aria-hidden=\"true\" href=\"#todoideas\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Todo/Ideas</h2>\n<ul>\n<li>FIX: index.js:1 Warning: Expected server HTML to contain a matching  in .</li>\n<li>TRY: <a href=\"https://usehooks.com/useSpring/\" rel=\"nofollow\">https://usehooks.com/useSpring/</a></li>\n<li>TRY: Formic, for the form</li>\n<li>Fleshed out on-boarding/login flow\n<ul>\n<li>Welcome-screen, handle \"new user doesn't know what any of this is\"</li>\n<li>Ability to disconnect</li>\n</ul>\n</li>\n<li>\"Print preview\"-oriented layout\n<ul>\n<li>Preview issues printed to A4</li>\n<li>Handle multiple pages gracefully</li>\n</ul>\n</li>\n<li>Generalize the Jira schema logic\n<ul>\n<li>Make a demo-deploy somewhere for easy demoing?</li>\n<li>Update README.md with links to deployed/demo version</li>\n<li>Write blog introducing the tool</li>\n</ul>\n</li>\n<li>Don't lock client when loading issues, display all scaffolds and fill in their data as it arrives</li>\n</ul>\n</article></div>",
+      "repoHtmlUrl": "https://github.com/gaggle/jira-printer",
+      "repoName": "jira-printer",
       "scrapeRecipe": "github"
     },
     "gaggle/jira-saver": {
@@ -1430,6 +1412,16 @@
             "width": 90
           },
           "src": "gaggle/repo-lister/8d8d00d5ff67eb1aaf3ed9169c8ea319.svg"
+        },
+        {
+          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/repo-lister/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "React-based offline repository overview",
@@ -1458,16 +1450,6 @@
             "width": 90
           },
           "src": "gaggle/repo-scraper/7360a869f9760a997039162fcd36a715.svg"
-        },
-        {
-          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
-          "href": "https://standardjs.com",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 124
-          },
-          "src": "gaggle/repo-scraper/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "CLI to scrape repositories",
@@ -1547,6 +1529,24 @@
       "readmeHtml": null,
       "repoHtmlUrl": "https://github.com/gaggle/selenium-testing-across-languages",
       "repoName": "selenium-testing-across-languages",
+      "scrapeRecipe": "github"
+    },
+    "gaggle/simple-jira-client": {
+      "badges": [
+      ],
+      "description": "Easily access Jira with this simple Jira API client",
+      "fullName": "gaggle/simple-jira-client",
+      "id": "gaggle/simple-jira-client",
+      "language": "TypeScript",
+      "openIssues": 0,
+      "openIssuesHtmlUrl": "https://github.com/gaggle/simple-jira-client/issues",
+      "openPullrequests": 0,
+      "openPullrequestsHtmlUrl": "https://github.com/gaggle/simple-jira-client/pulls",
+      "ownerHtmlUrl": "https://github.com/gaggle",
+      "ownerName": "gaggle",
+      "readmeHtml": "<div id=\"readme\" class=\"instapaper_body md\" data-path=\"README.md\"><article class=\"markdown-body entry-content p-5\" itemprop=\"text\"><h1><a id=\"user-content-simple-jira-client\" class=\"anchor\" aria-hidden=\"true\" href=\"#simple-jira-client\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Simple Jira Client</h1>\n<p>Simple (read: naive) wrapper to access Jira data.</p>\n<h2><a id=\"user-content-using\" class=\"anchor\" aria-hidden=\"true\" href=\"#using\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Using</h2>\n<div class=\"highlight highlight-source-shell\"><pre>simplejira --help</pre></div>\n<h2><a id=\"user-content-todoideas\" class=\"anchor\" aria-hidden=\"true\" href=\"#todoideas\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z\"></path></svg></a>Todo/Ideas</h2>\n<ul>\n<li>Tests are much too slow</li>\n</ul>\n</article></div>",
+      "repoHtmlUrl": "https://github.com/gaggle/simple-jira-client",
+      "repoName": "simple-jira-client",
       "scrapeRecipe": "github"
     },
     "gaggle/testautomation": {
