@@ -1,5 +1,5 @@
 {
-  "createdAt": "2020-03-01T17:29:16.331Z",
+  "createdAt": "2020-03-15T17:30:22.346Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -1539,7 +1539,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 90
+            "width": 81
           },
           "src": "gaggle/repos.jonlauridsen.com/1b2df2023c5b0b2d0cebbaab1399c322.svg"
         }
@@ -1604,7 +1604,7 @@
       "language": "TypeScript",
       "openIssues": 0,
       "openIssuesHtmlUrl": "https://github.com/gaggle/simple-jira-client/issues",
-      "openPullrequests": 0,
+      "openPullrequests": 1,
       "openPullrequestsHtmlUrl": "https://github.com/gaggle/simple-jira-client/pulls",
       "ownerHtmlUrl": "https://github.com/gaggle",
       "ownerName": "gaggle",
