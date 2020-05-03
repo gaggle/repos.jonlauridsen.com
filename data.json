@@ -1,5 +1,5 @@
 {
-  "createdAt": "2020-04-19T17:32:35.496Z",
+  "createdAt": "2020-05-03T17:33:27.131Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -325,7 +325,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 88
+            "width": 80
           },
           "src": "gaggle/errbot/71663166a0522e700fd9bab046fefb1b.svg"
         },
@@ -1514,16 +1514,6 @@
             "width": 90
           },
           "src": "gaggle/repo-lister/8d8d00d5ff67eb1aaf3ed9169c8ea319.svg"
-        },
-        {
-          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
-          "href": "https://standardjs.com",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 124
-          },
-          "src": "gaggle/repo-lister/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "React-based offline repository overview",
@@ -1552,6 +1542,16 @@
             "width": 90
           },
           "src": "gaggle/repo-scraper/7360a869f9760a997039162fcd36a715.svg"
+        },
+        {
+          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/repo-scraper/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "CLI to scrape repositories",
@@ -1577,7 +1577,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 90
+            "width": 81
           },
           "src": "gaggle/repos.jonlauridsen.com/1b2df2023c5b0b2d0cebbaab1399c322.svg"
         }
@@ -1789,7 +1789,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 156
           },
           "src": "gaggle/validate.js-array/a08dfbad80eb251e0df06ef7927340c4.svg"
         }
