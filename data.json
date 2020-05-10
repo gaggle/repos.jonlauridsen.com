@@ -1,5 +1,5 @@
 {
-  "createdAt": "2020-05-03T17:33:27.131Z",
+  "createdAt": "2020-05-10T17:33:29.107Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -325,7 +325,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 80
+            "width": 88
           },
           "src": "gaggle/errbot/71663166a0522e700fd9bab046fefb1b.svg"
         },
@@ -383,7 +383,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 90
+            "width": 81
           },
           "src": "gaggle/execa/35657e27eed4160dec89eebee0f50a36.svg"
         },
@@ -1789,7 +1789,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 156
+            "width": 149
           },
           "src": "gaggle/validate.js-array/a08dfbad80eb251e0df06ef7927340c4.svg"
         }
