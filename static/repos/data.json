@@ -1,5 +1,5 @@
 {
-  "createdAt": "2020-07-12T17:37:03.789Z",
+  "createdAt": "2020-07-19T17:37:16.804Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -516,7 +516,7 @@
       "language": "JavaScript",
       "openIssues": 0,
       "openIssuesHtmlUrl": "https://github.com/gaggle/fpie2/issues",
-      "openPullrequests": 0,
+      "openPullrequests": 1,
       "openPullrequestsHtmlUrl": "https://github.com/gaggle/fpie2/pulls",
       "ownerHtmlUrl": "https://github.com/gaggle",
       "ownerName": "gaggle",
@@ -1300,6 +1300,16 @@
           "src": "gaggle/nunjucks-tags-typography/8c7889683e84a9b964876b480422e157.svg"
         },
         {
+          "canonicalSrc": "https://codecov.io/gh/gaggle/nunjucks-tags-typography/branch/master/graph/badge.svg",
+          "href": "https://codecov.io/gh/gaggle/nunjucks-tags-typography",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 112
+          },
+          "src": "gaggle/nunjucks-tags-typography/ec857f7d826c78b73a2598bc744a5597.svg"
+        },
+        {
           "canonicalSrc": "https://snyk.io/test/github/gaggle/nunjucks-tags-typography/badge.svg",
           "href": "https://snyk.io/test/github/gaggle/nunjucks-tags-typography",
           "size": {
@@ -1308,6 +1318,16 @@
             "width": 110
           },
           "src": "gaggle/nunjucks-tags-typography/581a1d4db0abcf56ed7432bee721fed8.svg"
+        },
+        {
+          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/nunjucks-tags-typography/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "Collection of custom tags for Nunjucks",
@@ -1504,16 +1524,6 @@
             "width": 90
           },
           "src": "gaggle/repo-lister/8d8d00d5ff67eb1aaf3ed9169c8ea319.svg"
-        },
-        {
-          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
-          "href": "https://standardjs.com",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 124
-          },
-          "src": "gaggle/repo-lister/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "React-based offline repository overview",
@@ -1632,7 +1642,7 @@
       "language": "TypeScript",
       "openIssues": 0,
       "openIssuesHtmlUrl": "https://github.com/gaggle/simple-jira-client/issues",
-      "openPullrequests": 1,
+      "openPullrequests": 2,
       "openPullrequestsHtmlUrl": "https://github.com/gaggle/simple-jira-client/pulls",
       "ownerHtmlUrl": "https://github.com/gaggle",
       "ownerName": "gaggle",
