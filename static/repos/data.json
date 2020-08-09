@@ -1,5 +1,5 @@
 {
-  "createdAt": "2020-07-26T17:37:24.860Z",
+  "createdAt": "2020-08-09T17:38:24.283Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -297,7 +297,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 88
+            "width": 100
           },
           "src": "gaggle/electricitymap/66a7e58ce1ea779eae2c109a387f5602.svg"
         }
@@ -584,6 +584,16 @@
             "width": 90
           },
           "src": "gaggle/hash_decoder/a8ffda0a0275b147d262a2f02258a280.svg"
+        },
+        {
+          "canonicalSrc": "https://codecov.io/gh/gaggle/hash_decoder/branch/master/graph/badge.svg",
+          "href": "https://codecov.io/gh/gaggle/hash_decoder",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 112
+          },
+          "src": "gaggle/hash_decoder/d6b8a821f48ce5a14df1255ea9d7cbbd.svg"
         },
         {
           "canonicalSrc": "https://api.codeclimate.com/v1/badges/a38a3b93be1611bb6a76/maintainability",
@@ -1567,7 +1577,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 90
+            "width": 81
           },
           "src": "gaggle/repos.jonlauridsen.com/1b2df2023c5b0b2d0cebbaab1399c322.svg"
         }
