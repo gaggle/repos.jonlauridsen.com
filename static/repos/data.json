@@ -1,5 +1,5 @@
 {
-  "createdAt": "2020-08-09T17:38:24.283Z",
+  "createdAt": "2020-08-16T17:39:02.322Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -835,7 +835,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 144
+            "width": 140
           },
           "src": "gaggle/metalsmith-engine-jstransformer/89833c768a87b72c222703c3b4ca54cf.svg"
         },
@@ -1577,7 +1577,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 81
+            "width": 90
           },
           "src": "gaggle/repos.jonlauridsen.com/1b2df2023c5b0b2d0cebbaab1399c322.svg"
         }
