@@ -22,6 +22,6 @@
     "repo-scraper": "git+https://github.com/gaggle/repo-scraper.git#v0.4.0"
   },
   "devDependencies": {
-    "serve": "^10.1.1"
+    "serve": "^10.1.2"
   }
 }
