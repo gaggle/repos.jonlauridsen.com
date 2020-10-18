@@ -1,5 +1,5 @@
 {
-  "createdAt": "2020-10-11T17:43:15.884Z",
+  "createdAt": "2020-10-18T17:43:40.663Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -297,7 +297,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 100
+            "width": 98
           },
           "src": "gaggle/electricitymap/66a7e58ce1ea779eae2c109a387f5602.svg"
         }
@@ -325,7 +325,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 80
+            "width": 88
           },
           "src": "gaggle/errbot/71663166a0522e700fd9bab046fefb1b.svg"
         },
@@ -1318,16 +1318,6 @@
             "width": 110
           },
           "src": "gaggle/nunjucks-tags-typography/581a1d4db0abcf56ed7432bee721fed8.svg"
-        },
-        {
-          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
-          "href": "https://standardjs.com",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 124
-          },
-          "src": "gaggle/nunjucks-tags-typography/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "Collection of custom tags for Nunjucks",
@@ -1552,6 +1542,16 @@
             "width": 90
           },
           "src": "gaggle/repo-scraper/7360a869f9760a997039162fcd36a715.svg"
+        },
+        {
+          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/repo-scraper/dff6a929f64c70517ecb251810e37f0b.svg"
         }
       ],
       "description": "CLI to scrape repositories",
@@ -1789,7 +1789,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 156
           },
           "src": "gaggle/validate.js-array/a08dfbad80eb251e0df06ef7927340c4.svg"
         }
