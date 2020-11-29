@@ -1,5 +1,5 @@
 {
-  "createdAt": "2020-11-22T18:05:25.644Z",
+  "createdAt": "2020-11-29T17:52:39.301Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -221,7 +221,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 160
+            "width": 152
           },
           "src": "gaggle/csslint/14ff5e7288242da2eb7055f394ad6adf.svg"
         },
@@ -231,7 +231,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 160
+            "width": 180
           },
           "src": "gaggle/csslint/fabb0d526f4692ce7ee402f65581f75a.svg"
         }
@@ -790,6 +790,16 @@
             "width": 106
           },
           "src": "gaggle/keys-of-obj/b19ca213d3217dff5aea7374e163f612.svg"
+        },
+        {
+          "canonicalSrc": "https://david-dm.org/gaggle/keys-of-obj.svg",
+          "href": "https://david-dm.org/gaggle/keys-of-obj",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 149
+          },
+          "src": "gaggle/keys-of-obj/991ffdd900c70d3337556ff4878a0949.svg"
         }
       ],
       "description": null,
@@ -1162,6 +1172,16 @@
             "width": 106
           },
           "src": "gaggle/mocked-data/d0573468429be1f26d6e168c99c38af6.svg"
+        },
+        {
+          "canonicalSrc": "https://david-dm.org/gaggle/mocked-data.svg",
+          "href": "https://david-dm.org/gaggle/mocked-data",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 149
+          },
+          "src": "gaggle/mocked-data/446eb81725be7f1bed87489c5ac2fc5f.svg"
         }
       ],
       "description": null,
@@ -1456,6 +1476,16 @@
             "width": 124
           },
           "src": "gaggle/pem-parser/038cddacb1d99822376895c9318c1e98.svg"
+        },
+        {
+          "canonicalSrc": "https://david-dm.org/gaggle/pem-parser.svg",
+          "href": "https://david-dm.org/gaggle/pem-parser",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 149
+          },
+          "src": "gaggle/pem-parser/fac0a1105d4821aa006aafe2922e95f5.svg"
         }
       ],
       "description": null,
@@ -1593,7 +1623,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 81
+            "width": 90
           },
           "src": "gaggle/repos.jonlauridsen.com/682dcf0b4f2600e24a8bb96372947888.svg"
         }
@@ -1798,6 +1828,16 @@
             "width": 106
           },
           "src": "gaggle/validate.js-array/20a976077772acf61b99af11505c88db.svg"
+        },
+        {
+          "canonicalSrc": "https://david-dm.org/gaggle/validate.js-array.svg",
+          "href": "https://david-dm.org/gaggle/validate.js-array",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 149
+          },
+          "src": "gaggle/validate.js-array/e57e040e325ee7cefdea31bc780cd7b4.svg"
         }
       ],
       "description": null,
@@ -1836,6 +1876,16 @@
             "width": 106
           },
           "src": "gaggle/validate.js-enum/4f64d583362fde8ecfcb4e47223ee95c.svg"
+        },
+        {
+          "canonicalSrc": "https://david-dm.org/gaggle/validate.js-enum.svg",
+          "href": "https://david-dm.org/gaggle/validate.js-enum",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 149
+          },
+          "src": "gaggle/validate.js-enum/211bd9d9520ea49081c93f5778373d5c.svg"
         }
       ],
       "description": null,
@@ -1874,6 +1924,16 @@
             "width": 106
           },
           "src": "gaggle/validate.js-xor/7ae5b7f4d320f7577e60c5a8619e2c18.svg"
+        },
+        {
+          "canonicalSrc": "https://david-dm.org/gaggle/validate.js-xor.svg",
+          "href": "https://david-dm.org/gaggle/validate.js-xor",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 149
+          },
+          "src": "gaggle/validate.js-xor/ce0faba22264a521b7cd5f71e8768637.svg"
         }
       ],
       "description": null,
