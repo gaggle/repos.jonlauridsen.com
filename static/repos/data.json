@@ -1,5 +1,5 @@
 {
-  "createdAt": "2020-12-13T17:54:19.931Z",
+  "createdAt": "2020-12-20T17:50:54.297Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -214,6 +214,26 @@
             "width": 80
           },
           "src": "gaggle/csslint/44a07b084ca3d8f1ddfb577cdb395ec9.svg"
+        },
+        {
+          "canonicalSrc": "https://img.shields.io/david/CSSLint/csslint.svg",
+          "href": "https://david-dm.org/CSSLint/csslint",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 152
+          },
+          "src": "gaggle/csslint/14ff5e7288242da2eb7055f394ad6adf.svg"
+        },
+        {
+          "canonicalSrc": "https://img.shields.io/david/dev/CSSLint/csslint.svg",
+          "href": "https://david-dm.org/CSSLint/csslint#info=devDependencies",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 146
+          },
+          "src": "gaggle/csslint/fabb0d526f4692ce7ee402f65581f75a.svg"
         }
       ],
       "description": "Automated linting of Cascading Stylesheets",
@@ -777,7 +797,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 126
           },
           "src": "gaggle/keys-of-obj/991ffdd900c70d3337556ff4878a0949.svg"
         }
@@ -1159,7 +1179,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 156
           },
           "src": "gaggle/mocked-data/446eb81725be7f1bed87489c5ac2fc5f.svg"
         }
@@ -1463,7 +1483,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 156
           },
           "src": "gaggle/pem-parser/fac0a1105d4821aa006aafe2922e95f5.svg"
         }
@@ -1815,7 +1835,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 156
           },
           "src": "gaggle/validate.js-array/e57e040e325ee7cefdea31bc780cd7b4.svg"
         }
@@ -1863,7 +1883,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 156
           },
           "src": "gaggle/validate.js-enum/211bd9d9520ea49081c93f5778373d5c.svg"
         }
@@ -1911,7 +1931,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 149
+            "width": 156
           },
           "src": "gaggle/validate.js-xor/ce0faba22264a521b7cd5f71e8768637.svg"
         }
