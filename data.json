@@ -1,5 +1,5 @@
 {
-  "createdAt": "2021-05-23T17:58:38.090Z",
+  "createdAt": "2021-05-30T17:58:53.610Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -1728,6 +1728,16 @@
             "width": 90
           },
           "src": "gaggle/repo-lister/cbc30fcf658e60daec953b44f6a9498f.svg"
+        },
+        {
+          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/repo-lister/c079a598eada2d8f8b76fa166c13a74c.svg"
         }
       ],
       "description": "React-based offline repository overview",
@@ -1756,16 +1766,6 @@
             "width": 90
           },
           "src": "gaggle/repo-scraper/397d6230a18f22661cd881318aa640cf.svg"
-        },
-        {
-          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
-          "href": "https://standardjs.com",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 124
-          },
-          "src": "gaggle/repo-scraper/c079a598eada2d8f8b76fa166c13a74c.svg"
         }
       ],
       "description": "CLI to scrape repositories",
@@ -1791,7 +1791,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 81
+            "width": 90
           },
           "src": "gaggle/repos.jonlauridsen.com/682dcf0b4f2600e24a8bb96372947888.svg"
         }
