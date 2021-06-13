@@ -1,5 +1,5 @@
 {
-  "createdAt": "2021-06-06T17:59:34.523Z",
+  "createdAt": "2021-06-13T18:00:00.533Z",
   "repos": {
     "gaggle/accelerate-talk": {
       "badges": [
@@ -1433,7 +1433,7 @@
           "size": {
             "height": 20,
             "type": "svg",
-            "width": 122
+            "width": 137
           },
           "src": "gaggle/nunjucks-tags/c0db76635ceb09a96db7901590105d65.svg"
         },
@@ -1728,16 +1728,6 @@
             "width": 90
           },
           "src": "gaggle/repo-lister/cbc30fcf658e60daec953b44f6a9498f.svg"
-        },
-        {
-          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
-          "href": "https://standardjs.com",
-          "size": {
-            "height": 20,
-            "type": "svg",
-            "width": 124
-          },
-          "src": "gaggle/repo-lister/c079a598eada2d8f8b76fa166c13a74c.svg"
         }
       ],
       "description": "React-based offline repository overview",
@@ -1766,6 +1756,16 @@
             "width": 90
           },
           "src": "gaggle/repo-scraper/397d6230a18f22661cd881318aa640cf.svg"
+        },
+        {
+          "canonicalSrc": "https://img.shields.io/badge/code_style-standard-brightgreen.svg",
+          "href": "https://standardjs.com",
+          "size": {
+            "height": 20,
+            "type": "svg",
+            "width": 124
+          },
+          "src": "gaggle/repo-scraper/c079a598eada2d8f8b76fa166c13a74c.svg"
         }
       ],
       "description": "CLI to scrape repositories",
